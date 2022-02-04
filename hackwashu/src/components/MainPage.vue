@@ -4,6 +4,7 @@
   <SectionOne />
   <About />
   <Tracks />
+  <Sponsors />
 </div>
 </template>
 
@@ -12,6 +13,7 @@ import SectionOne from './SectionOne.vue'
 import NavBar from './NavBar.vue'
 import About from './About.vue'
 import Tracks from './Tracks.vue'
+import Sponsors from './Sponsors.vue'
 
 export default {
   name: 'MainPage',
@@ -22,7 +24,8 @@ export default {
     NavBar,
     SectionOne,
     About,
-    Tracks
+    Tracks,
+    Sponsors,
   }
 }
 </script>
