@@ -5,6 +5,8 @@
   <About />
   <Tracks />
   <Sponsors />
+  <Team />
+  <Contact />
 </div>
 </template>
 
@@ -14,6 +16,8 @@ import NavBar from './NavBar.vue'
 import About from './About.vue'
 import Tracks from './Tracks.vue'
 import Sponsors from './Sponsors.vue'
+import Team from './Team.vue'
+import Contact from './Contact.vue'
 
 export default {
   name: 'MainPage',
@@ -26,6 +30,8 @@ export default {
     About,
     Tracks,
     Sponsors,
+    Team,
+    Contact,
   }
 }
 </script>

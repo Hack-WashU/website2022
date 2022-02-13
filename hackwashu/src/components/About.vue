@@ -1,7 +1,7 @@
 <template>
 <div id="about">
    <div id="title">
-       <h1>about</h1>
+       <h1 id="a">about</h1>
        <h1>HACKWASHU</h1>
    </div>
    <div id="description">
@@ -26,7 +26,7 @@ export default {
 <style scoped>
 #about {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-color: rgb(0, 1, 24);
     display: flex;
     flex-direction: row;
@@ -34,12 +34,16 @@ export default {
     align-content: center;
     justify-content: center;
 }
+#a {
+    color: azure;
+}
 #title {
     text-align: left;
     padding: 30px;
 }
 #description {
     width: 40%;
+    max-width: 600px;
     border: rgb(255, 171, 60) 2px solid;
     padding: 20px;
     border-radius: 20px;
@@ -59,7 +63,7 @@ p {
 
 @media only screen and (max-width: 1000px) {
     #about {
-        height: 110vh;
+        height: 130vh;
     }
     #description {
         width: 70%;

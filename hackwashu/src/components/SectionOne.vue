@@ -2,7 +2,7 @@
     <div id="background">
         <div id="contentsborder">
             <div id="contents">
-                <h1>HACK WASHU</h1>
+                <h1><span id="hack">HACK</span>WASHU</h1>
                 <h3>SEPTEMBER 9 - 11 2022</h3>
             </div>
         </div>
@@ -17,9 +17,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#title {
+    display: flex;
+}
+
+#hack {
+    color: azure;
+}
+
 #background {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-color: rgb(0, 1, 24);
     display: flex;
     justify-content: center;
@@ -53,14 +61,16 @@ h3 {
     100% {background-color:rgb(255, 159, 159); box-shadow: 0px 0px 30px 20px rgba(255, 159, 159, 0.432);}
 }
 
-@media screen {
-    
-}
-
 #contents {
     background-color: rgba(0, 1, 24, 0.911);
     border-radius: 15px;
-    padding: 60px;
+    padding: 90px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #contents {
+        padding: 40px;
+    }
 }
 
 </style>

@@ -1,7 +1,7 @@
 <template>
 <div id="tracksAndDivisions">
     <div id="tracks">
-        <h1>2 Tracks</h1>
+        <h1><span class="number">two</span> tracks</h1>
         <div>
             <TrackContainer 
                 title="Sustainability" 
@@ -17,7 +17,7 @@
         </div>
     </div>
     <div id="divisions">
-        <h1>2 Divisions</h1>
+        <h1><span class="number">two</span> divisions</h1>
         <div>
             <TrackContainer 
                 title="Master" 
@@ -49,7 +49,7 @@ export default {
 <style scoped>
  #tracksAndDivisions {
      width: 100vw;
-     height: 110vh;
+     height: 90vh;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -74,5 +74,9 @@ h1 {
     #tracksAndDivisions {
         height: 200vh;
     }
-}
+ }
+
+ .number {
+     color: azure;
+ }
 </style>

@@ -1,7 +1,6 @@
 <template>
 
 <div class="track" :style="`--element-color: ${color}`" data-aos="flip-right" data-aos-duration="1000">
-    
     <h1>{{title}}</h1>
     <i :class="`${logo}`"></i>
 </div>
@@ -26,7 +25,9 @@ export default {
 <style scoped>
 .track {
     width: 20%;
+    max-width: 400px;
     height: 20vw;
+    max-height: 400px;
     margin: 30px;
     border: 2px;
     border: 5px solid var(--element-color);

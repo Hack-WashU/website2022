@@ -1,11 +1,11 @@
 <template>
 <div id="sponsors">
     <h1 id="sponsorTitle">SPONSORS</h1>
-    <div class="sponsorList">
+    <div class="sponsorList" data-aos="fade-left" data-aos-duration="1000">
         <h2>Coming Soon!</h2>
     </div>
     <h1 id="partnerTitle">PARTNERS</h1>
-    <div class="sponsorList">
+    <div class="sponsorList" data-aos="fade-right" data-aos-duration="1000">
         <h2><img src="../assets/acm.png">WASHU ACM</h2>
     </div>
 </div>
@@ -22,7 +22,7 @@ export default {
 <style scoped>
 #sponsors {
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
