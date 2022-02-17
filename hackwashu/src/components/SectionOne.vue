@@ -26,7 +26,6 @@ export default {
 }
 
 #background {
-    width: 100vw;
     height: 90vh;
     background-color: rgb(0, 1, 24);
     display: flex;

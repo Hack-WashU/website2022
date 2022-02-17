@@ -21,7 +21,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #sponsors {
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;

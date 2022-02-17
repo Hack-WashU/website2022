@@ -48,7 +48,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
  #tracksAndDivisions {
-     width: 100vw;
      height: 90vh;
      display: flex;
      flex-direction: column;

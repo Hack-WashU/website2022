@@ -52,7 +52,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #team {
-    width: 100vw;
     height: 80vh;
     display: flex;
     flex-direction: column;

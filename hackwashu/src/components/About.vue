@@ -25,7 +25,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #about {
-    width: 100vw;
     height: 80vh;
     background-color: rgb(0, 1, 24);
     display: flex;
