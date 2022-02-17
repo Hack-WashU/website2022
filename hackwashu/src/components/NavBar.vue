@@ -30,6 +30,6 @@ li {
 a {
     text-decoration: none;
     color: azure;
-    font-size: 0.2em;
+    font-size: 1em;
 }
 </style>
