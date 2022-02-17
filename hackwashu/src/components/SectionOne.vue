@@ -68,7 +68,11 @@ h3 {
 
 @media only screen and (max-width: 1000px) {
     #contents {
-        padding: 40px;
+        padding: 80px 30px;
+    }
+
+    h1 {
+        font-size: 2em;
     }
 }
 

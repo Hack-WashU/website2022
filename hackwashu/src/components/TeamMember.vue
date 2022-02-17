@@ -83,4 +83,14 @@ h3 {
     font-size: 1em;
 }
 
+@media only screen and (max-width: 1000px) {
+    .member {
+        width: 150px;
+        height: 150px;
+    }
+    .front h3 {
+        top: 90px;
+    }
+}
+
 </style>
