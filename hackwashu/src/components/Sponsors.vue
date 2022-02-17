@@ -29,18 +29,18 @@ export default {
 
 h1 {
     font-size: 3em;
-    text-align: left;
-    margin-left: 100px;
     color: rgb(255, 171, 60);
+    text-align: left;
+    margin-left: 5%;
 }
 
 .sponsorList {
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
     background-color: azure;
     border-radius: 20px;
     padding: 20px;
+    width: 80vw;
 }
 
 img {

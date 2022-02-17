@@ -86,7 +86,7 @@ h1 {
 
 @media only screen and (max-width: 1000px) {
     #team {
-        height: 100vh;
+        height: 105vh;
     }
 }
 </style>
