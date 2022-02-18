@@ -15,6 +15,18 @@ npm run serve
 npm run build
 ```
 
+### To Contribute
+```
+git pull
+git checkout -b <branch name>
+**do your thing**
+git add .
+git commit -m <brief description of what you worked on>
+git push origin <branch name>
+
+create a PR and mark Bradley and Seojin as reviewers
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
