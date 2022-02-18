@@ -84,7 +84,7 @@ h3 {
     font-family: Mont;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
     .member {
         width: 150px;
         height: 150px;

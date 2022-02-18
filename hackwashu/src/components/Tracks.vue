@@ -56,8 +56,6 @@ export default {
 }
 h1 {
     color: rgb(255, 171, 60);
-    font-size: 3em;
-    font-family: Mont;
 }
  #tracks div {
      display: flex;
@@ -71,9 +69,9 @@ h1 {
      flex-wrap: wrap;
  }
 
- @media only screen and (max-width: 1000px) {
+ @media only screen and (max-width: 500px) {
     #tracksAndDivisions {
-        height: 200vh;
+        height: 190vh;
     }
  }
 

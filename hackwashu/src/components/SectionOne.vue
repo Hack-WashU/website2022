@@ -33,16 +33,11 @@ export default {
 }
 
 h1 {
-    margin: 0;
     color: rgb(255, 171, 60);
-    font-size: 3em;
-    font-family: Mont;
 }
 
 h3 {
-    margin: 0;
     color: rgb(255, 255, 255);
-    font-family: Mont;
 }
 
 #contentsborder {
@@ -67,13 +62,9 @@ h3 {
     padding: 90px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
     #contents {
         padding: 80px 30px;
-    }
-
-    h1 {
-        font-size: 2em;
     }
 }
 

@@ -72,11 +72,6 @@ export default {
     display: flex;
 }
 
-h1 {
-    font-size: 3em;
-    font-family: Mont;
-}
-
 #meet-the {
     color: white;
 }
@@ -85,7 +80,7 @@ h1 {
     color: rgb(255, 171, 60);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
     #team {
         height: 105vh;
     }

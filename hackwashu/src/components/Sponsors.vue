@@ -28,11 +28,9 @@ export default {
 }
 
 h1 {
-    font-size: 3em;
     color: rgb(255, 255, 255);
     text-align: left;
-    margin-left: 8%;
-    font-family: Mont;
+    margin-left: 4%;
 }
 
 .sponsorList {
@@ -42,6 +40,7 @@ h1 {
     border-radius: 20px;
     padding: 20px;
     width: 80vw;
+    margin-bottom: 5vh;
 }
 
 img {

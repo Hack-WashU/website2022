@@ -1,7 +1,7 @@
 <template>
 
 <div class="track" :style="`--element-color: ${color}`" data-aos="flip-right" data-aos-duration="1000">
-    <h1>{{title}}</h1>
+    <h2>{{title}}</h2>
     <i :class="`${logo}`"></i>
 </div>
 </template>
@@ -36,10 +36,9 @@ export default {
     animation: breath 2s ease 2s infinite alternate;
 }
 
-h1 {
-    color: azure;
-    font-size: 2em;
-    font-family: Mont;
+h2 {
+    color: rgb(255, 255, 255);
+    margin: 20px;
 }
 
 @keyframes breath {
@@ -47,10 +46,10 @@ h1 {
     100% {box-shadow: 0px 0px 20px 10px var(--element-color);}
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
     .track {
-        width: 300px;
-        height: 300px;
+        width: 70vw;
+        height: 70vw;
     }
 }
 </style>

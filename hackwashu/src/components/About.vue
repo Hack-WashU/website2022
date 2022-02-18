@@ -50,9 +50,6 @@ export default {
 
 h1 {
     color: rgb(255, 171, 60);
-    font-size: 3em;
-    margin: 0;
-    font-family: Mont;
 }
 
 p {
@@ -60,7 +57,7 @@ p {
     font-family: Mont;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
     #about {
         height: 130vh;
     }
