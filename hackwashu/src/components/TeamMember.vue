@@ -61,7 +61,7 @@ export default {
 }
 
 .back h3 {
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 
 .front {
@@ -81,6 +81,7 @@ export default {
 
 h3 {
     font-size: 1em;
+    font-family: Mont;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -1,8 +1,8 @@
 <template>
 <div id="team">
     <div class="titleContainer">
-        <h1 id="meet-the">meet the&nbsp;</h1>
-        <h1 id="-team">team</h1>
+        <h1 id="meet-the">Meet The&nbsp;</h1>
+        <h1 id="-team">Team</h1>
     </div>
     <div class="container">
         <TeamMember
@@ -74,6 +74,7 @@ export default {
 
 h1 {
     font-size: 3em;
+    font-family: Mont;
 }
 
 #meet-the {

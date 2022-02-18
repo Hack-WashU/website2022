@@ -1,33 +1,33 @@
 <template>
 <div id="tracksAndDivisions">
-    <div id="tracks">
-        <h1><span class="number">two</span> tracks</h1>
-        <div>
-            <TrackContainer 
-                title="Sustainability" 
-                info="hi" 
-                color="rgb(51, 255, 153)"
-                logo="fab fa-pagelines"
-            />
-            <TrackContainer 
-                title="Security"
-                info="hi" 
-                color="rgb(255, 102, 102)"
-            />
-        </div>
-    </div>
     <div id="divisions">
-        <h1><span class="number">two</span> divisions</h1>
+        <h1><span class="number">Two</span> Divisions</h1>
         <div>
             <TrackContainer 
                 title="Master" 
                 info="hi" 
-                color="rgb(51, 153, 255)"
+                color="#DF4E68"
             />
             <TrackContainer 
                 title="Emerging"
                 info="hi" 
-                color="rgb(255, 255, 102)"
+                color="#562EEB"
+            />
+        </div>
+    </div>
+    <div id="tracks">
+        <h1><span class="number">Two</span> Tracks</h1>
+        <div>
+            <TrackContainer 
+                title="Security"
+                info="hi" 
+                color="#3C5BFF"
+            />
+            <TrackContainer 
+                title="Sustainability" 
+                info="hi" 
+                color="#6DDF90"
+                logo="fab fa-pagelines"
             />
         </div>
     </div>
@@ -57,6 +57,7 @@ export default {
 h1 {
     color: rgb(255, 171, 60);
     font-size: 3em;
+    font-family: Mont;
 }
  #tracks div {
      display: flex;
@@ -77,6 +78,6 @@ h1 {
  }
 
  .number {
-     color: azure;
+     color: rgb(255, 255, 255);
  }
 </style>

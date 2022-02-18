@@ -17,6 +17,7 @@ export default {
     height: 50vh;
 }
 h3 {
-    color: azure;
+    color: rgb(255, 255, 255);
+    font-family: Mont;
 }
 </style>

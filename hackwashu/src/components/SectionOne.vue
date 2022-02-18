@@ -2,8 +2,8 @@
     <div id="background">
         <div id="contentsborder">
             <div id="contents">
-                <h1><span id="hack">HACK</span>WASHU</h1>
-                <h3>SEPTEMBER 9 - 11 2022</h3>
+                <h1><span id="hack">Hack </span>WashU</h1>
+                <h3>September 9 - 11 2022</h3>
             </div>
         </div>
     </div>
@@ -22,12 +22,11 @@ export default {
 }
 
 #hack {
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 
 #background {
     height: 90vh;
-    background-color: rgb(0, 1, 24);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,11 +36,13 @@ h1 {
     margin: 0;
     color: rgb(255, 171, 60);
     font-size: 3em;
+    font-family: Mont;
 }
 
 h3 {
     margin: 0;
-    color: azure;
+    color: rgb(255, 255, 255);
+    font-family: Mont;
 }
 
 #contentsborder {
@@ -61,7 +62,7 @@ h3 {
 }
 
 #contents {
-    background-color: rgba(0, 1, 24, 0.911);
+    background-color: #08003F;
     border-radius: 15px;
     padding: 90px;
 }

@@ -1,8 +1,8 @@
 <template>
 <div id="about">
    <div id="title">
-       <h1 id="a">about</h1>
-       <h1>HACKWASHU</h1>
+       <h1 id="a">About</h1>
+       <h1>Hack WashU</h1>
    </div>
    <div id="description">
        <p>
@@ -26,7 +26,6 @@ export default {
 <style scoped>
 #about {
     height: 80vh;
-    background-color: rgb(0, 1, 24);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -43,21 +42,22 @@ export default {
 #description {
     width: 40%;
     max-width: 600px;
-    border: rgb(255, 171, 60) 2px solid;
+    border: rgb(255, 255, 255) 3px solid;
     padding: 20px;
     border-radius: 20px;
     margin-left: 30px;
-    box-shadow: 0px 0px 20px 10px rgb(255, 171, 60);
 }
 
 h1 {
     color: rgb(255, 171, 60);
     font-size: 3em;
     margin: 0;
+    font-family: Mont;
 }
 
 p {
-    color: azure;
+    color: white;
+    font-family: Mont;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -22,4 +22,9 @@ export default {
   color: #2c3e50;
   overflow-x: hidden;
 }
+
+@font-face {
+  font-family: 'Mont';
+  src: url('./fonts/Mont-Regular.woff');
+}
 </style>

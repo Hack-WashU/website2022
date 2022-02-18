@@ -39,6 +39,7 @@ export default {
 h1 {
     color: azure;
     font-size: 2em;
+    font-family: Mont;
 }
 
 @keyframes breath {

@@ -1,10 +1,10 @@
 <template>
 <div id="sponsors">
-    <h1 id="sponsorTitle">SPONSORS</h1>
+    <h1 id="sponsorTitle">Sponsors</h1>
     <div class="sponsorList" data-aos="fade-left" data-aos-duration="1000">
         <h2>Coming Soon!</h2>
     </div>
-    <h1 id="partnerTitle">PARTNERS</h1>
+    <h1 id="partnerTitle">Partners</h1>
     <div class="sponsorList" data-aos="fade-right" data-aos-duration="1000">
         <h2><img src="../assets/acm.png">WASHU ACM</h2>
     </div>
@@ -29,9 +29,10 @@ export default {
 
 h1 {
     font-size: 3em;
-    color: rgb(255, 171, 60);
+    color: rgb(255, 255, 255);
     text-align: left;
-    margin-left: 5%;
+    margin-left: 8%;
+    font-family: Mont;
 }
 
 .sponsorList {
