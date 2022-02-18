@@ -33,7 +33,7 @@ export default {
     justify-content: center;
 }
 #a {
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 #title {
     text-align: left;
@@ -49,7 +49,7 @@ export default {
 }
 
 h1 {
-    color: rgb(255, 171, 60);
+    color: var(--orange);
 }
 
 p {

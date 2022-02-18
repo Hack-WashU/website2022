@@ -53,7 +53,7 @@ export default {
 }
 
 .back {
-    background-color: rgb(255, 171, 60);
+    background-color: var(--orange);
     transform: rotateY(-180deg);
     display: flex;
     align-items: center;

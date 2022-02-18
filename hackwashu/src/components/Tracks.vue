@@ -6,12 +6,12 @@
             <TrackContainer 
                 title="Master" 
                 info="hi" 
-                color="#DF4E68"
+                color="var(--red)"
             />
             <TrackContainer 
                 title="Emerging"
                 info="hi" 
-                color="#562EEB"
+                color="var(--purple)"
             />
         </div>
     </div>
@@ -21,13 +21,12 @@
             <TrackContainer 
                 title="Security"
                 info="hi" 
-                color="#3C5BFF"
+                color="var(--blue)"
             />
             <TrackContainer 
                 title="Sustainability" 
                 info="hi" 
-                color="#6DDF90"
-                logo="fab fa-pagelines"
+                color="var(--green)"
             />
         </div>
     </div>
@@ -55,7 +54,7 @@ export default {
      justify-content: center;
 }
 h1 {
-    color: rgb(255, 171, 60);
+    color: var(--orange);
 }
  #tracks div {
      display: flex;

@@ -77,7 +77,7 @@ export default {
 }
 
 #-team {
-    color: rgb(255, 171, 60);
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 500px) {
