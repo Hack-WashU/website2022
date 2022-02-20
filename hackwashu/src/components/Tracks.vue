@@ -48,7 +48,7 @@ export default {
 <style scoped>
  #tracksAndDivisions {
      width: 100%;
-     height: 90vh;
+     min-height: 90vh;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -70,7 +70,7 @@ h1 {
 
  @media only screen and (max-width: 500px) {
     #tracksAndDivisions {
-        height: 190vh;
+        min-height: 190vh;
     }
  }
 

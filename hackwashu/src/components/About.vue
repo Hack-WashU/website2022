@@ -25,7 +25,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #about {
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@ p {
 
 @media only screen and (max-width: 500px) {
     #about {
-        height: 130vh;
+        min-height: 130vh;
     }
     #description {
         width: 70%;

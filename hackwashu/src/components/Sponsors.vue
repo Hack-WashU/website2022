@@ -12,7 +12,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'Sponsors',
 }
@@ -21,7 +20,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #sponsors {
-    height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

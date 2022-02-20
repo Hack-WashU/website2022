@@ -2,7 +2,10 @@
 <div class='member'>
     <div class="inner">
         <div class="front">
-            <h3>{{name}}</h3>
+            <img :src="require(`../assets/${photo}`)">
+            <div class="nameContainer">
+                <h3>{{name}}</h3>
+            </div>
         </div>
         <div class="back">
             <h3>{{role}}</h3>
@@ -14,12 +17,13 @@
 <script>
 export default {
   name: 'TeamMember',
-  props: ['name', 'role', 'link'],
+  props: ['name', 'role', 'link', 'photo'],
   data() {
       return {
           name: this.name,
           role: this.role,
           link: this.link,
+          photo: this.photo,
       }
   }
 }
@@ -41,6 +45,12 @@ export default {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
 }
 
 .front, .back {
@@ -68,20 +78,23 @@ export default {
     background-color: azure;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
-.front h3 {
+.nameContainer {
+    display: flex;
+    justify-content: center;
     position: absolute;
-    top: 120px;
+    top: 160px;
+    width: 200px;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .member:hover .inner {
     transform: rotateY(180deg);
-}
-
-h3 {
-    font-size: 1em;
-    font-family: Mont;
 }
 
 @media only screen and (max-width: 500px) {
@@ -89,8 +102,9 @@ h3 {
         width: 150px;
         height: 150px;
     }
-    .front h3 {
-        top: 90px;
+    .nameContainer {
+        top: 125px;
+        height: 25px;
     }
 }
 

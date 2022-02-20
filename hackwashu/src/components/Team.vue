@@ -8,30 +8,37 @@
         <TeamMember
             name="Bradley"
             role="Director of Technology"
+            photo="hackwashulogo.png"
         />
         <TeamMember
             name="Emily"
             role="Director of Finance"
+            photo="emsheehan.jpg"
         />
         <TeamMember
             name="Eugene"
             role="Director of Design"
+            photo="hackwashulogo.png"
         />
         <TeamMember
             name="Lisa"
             role="Co-Director of Communications"
+            photo="lisahan.jpeg"
         />
         <TeamMember
             name="Mitch"
             role="Co-Director of Communications"
+            photo="hackwashulogo.png"
         />
         <TeamMember
             name="Sam"
             role="Director of Operations"
+            photo="samkim.jpg"
         />
         <TeamMember
             name="Dr. Neumann"
             role="Faculty Advisor"
+            photo="hackwashulogo.png"
         />
     </div>
 </div>
@@ -40,11 +47,17 @@
 
 <script>
 import TeamMember from './TeamMember.vue'
+import { lisa } from '../assets/lisahan.jpeg'
 
 export default {
   name: 'Team',
   components: {
       TeamMember,
+  },
+  data() {
+      return {
+          lisaphoto: lisa,
+      }
   }
 }
 </script>
@@ -52,7 +65,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #team {
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
