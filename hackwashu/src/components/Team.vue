@@ -28,7 +28,7 @@
         <TeamMember
             name="Mitch"
             role="Co-Director of Communications"
-            photo="hackwashulogo.png"
+            photo="mitch.png"
         />
         <TeamMember
             name="Sam"
