@@ -1,16 +1,17 @@
 <template>
 <div id="about">
-   <div id="title">
+   <div id="left">
        <h1 id="a">About</h1>
        <h1>Hack WashU</h1>
+       <p>
+           At HackWashU, you'll meet fellow hackers from around the country, learn new skills, and work alongside seasoned mentors. We'll have free workshops, lecture series, mentorship, prizes, games, and more. Don't have a team, or even an idea? Don't worry! We'll give you the tools to build something incredible.
+       </p>
+       <p>
+           For 36 hours from September 9th to September 11th, you’ll have the opportunity to collaborate and build out brilliant, innovative, and impactful ideas.
+       </p>
    </div>
-   <div id="description">
-       <p>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-       </p>
-       <p>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       </p>
+   <div id="right">
+       <img src="../assets/hackwashulogo.png">
    </div>
 </div>
 </template>
@@ -35,17 +36,26 @@ export default {
 #a {
     color: rgb(255, 255, 255);
 }
-#title {
+#left {
     text-align: left;
-    padding: 30px;
-}
-#description {
-    width: 40%;
-    max-width: 600px;
-    border: rgb(255, 255, 255) 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
     padding: 20px;
-    border-radius: 20px;
-    margin-left: 30px;
+}
+img {
+    width: 80%;
+    height: auto;
+    align-self: center;
+    max-width: 300px;
+}
+#right {
+    width: 25%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
@@ -55,15 +65,18 @@ h1 {
 p {
     color: white;
     font-family: Mont;
+    line-height: 2;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
     #about {
         min-height: 130vh;
     }
-    #description {
+    #right {
         width: 70%;
-        margin-left: 0px;
+    }
+    img {
+        width: 100%;
     }
 }
 </style>
