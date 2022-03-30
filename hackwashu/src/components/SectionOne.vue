@@ -26,7 +26,7 @@ export default {
 }
 
 #background {
-    height: 90vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;

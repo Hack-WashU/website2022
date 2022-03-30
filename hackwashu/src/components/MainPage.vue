@@ -18,6 +18,7 @@ import Tracks from './Tracks.vue'
 import Sponsors from './Sponsors.vue'
 import Team from './Team.vue'
 import Contact from './Contact.vue'
+import EmailList from './EmailList.vue'
 
 export default {
   name: 'MainPage',
@@ -27,6 +28,7 @@ export default {
   components: {
     NavBar,
     SectionOne,
+    EmailList,
     About,
     Tracks,
     Sponsors,
