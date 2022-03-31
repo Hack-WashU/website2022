@@ -1,8 +1,9 @@
 <template>
 <div>
   <NavBar />
-  <EmailList />
   <SectionOne />
+  <EmailList />
+  
   <About />
   <Tracks />
   <Sponsors />

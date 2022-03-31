@@ -26,8 +26,8 @@ export default {
 }
 
 #background {
-    padding-top: 10vh;
-    padding-bottom: 20vh;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;

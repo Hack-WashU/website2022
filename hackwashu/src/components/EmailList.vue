@@ -101,7 +101,7 @@ export default {
     }
 
 #background {
-    padding-top: 20vh;
+    padding-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
