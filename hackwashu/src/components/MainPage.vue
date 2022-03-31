@@ -1,6 +1,7 @@
 <template>
 <div>
   <NavBar />
+  <EmailList />
   <SectionOne />
   <About />
   <Tracks />
