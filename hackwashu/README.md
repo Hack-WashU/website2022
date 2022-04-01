@@ -27,5 +27,10 @@ git push origin <branch name>
 create a PR and mark Bradley and Seojin as reviewers
 ```
 
+### Deploy to Prod
+
+Make sure your commits are merged to main. Then call deploy.sh.
+**CHECK WITH BRADLEY OR SEOJIN BEFORE YOU DO THIS.**
+
 ### Project Structure
 <img width="835" alt="Screen Shot 2022-02-17 at 11 31 46 PM" src="https://user-images.githubusercontent.com/62783136/154626038-4f92db0b-d651-4eb9-bf69-4a8c433126b2.png">
