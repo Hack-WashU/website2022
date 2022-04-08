@@ -2,6 +2,8 @@
 <div>
   <NavBar />
   <SectionOne />
+  <EmailList />
+  
   <About />
   <Tracks />
   <Sponsors />
@@ -19,6 +21,7 @@ import Tracks from './Tracks.vue'
 import Sponsors from './Sponsors.vue'
 import Team from './Team.vue'
 import Contact from './Contact.vue'
+import EmailList from './EmailList.vue'
 import FAQ from './FAQ.vue'
 
 export default {
@@ -29,6 +32,7 @@ export default {
   components: {
     NavBar,
     SectionOne,
+    EmailList,
     About,
     Tracks,
     Sponsors,

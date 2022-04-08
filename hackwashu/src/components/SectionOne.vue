@@ -3,7 +3,7 @@
         <div id="contentsborder">
             <div id="contents">
                 <h1><span id="hack">Hack </span>WashU</h1>
-                <h3>September 9 - 11 2022</h3>
+                <h3>September 9 - 11, 2022</h3>
             </div>
         </div>
     </div>
@@ -26,7 +26,8 @@ export default {
 }
 
 #background {
-    height: 90vh;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
