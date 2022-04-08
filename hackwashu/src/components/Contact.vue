@@ -1,7 +1,7 @@
 <template>
 <div id="contact">
 <h3>have any questions?</h3>
-<h3>talk to us at organzier@hackwashu.io</h3>
+<h3>talk to us at <a href="mailto:organzier@hackwashu.io">organzier@hackwashu.io</a></h3>
 </div>
 </template>
 
