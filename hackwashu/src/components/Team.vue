@@ -90,7 +90,7 @@ export default {
 }
 
 #-team {
-    color: rgb(255, 255, 255);
+    color: var(--orange);
 }
 
 @media only screen and (max-width: 500px) {

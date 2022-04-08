@@ -8,6 +8,7 @@
   <Tracks />
   <Sponsors />
   <Team />
+  <FAQ />
   <Contact />
 </div>
 </template>
@@ -21,6 +22,7 @@ import Sponsors from './Sponsors.vue'
 import Team from './Team.vue'
 import Contact from './Contact.vue'
 import EmailList from './EmailList.vue'
+import FAQ from './FAQ.vue'
 
 export default {
   name: 'MainPage',
@@ -35,6 +37,7 @@ export default {
     Tracks,
     Sponsors,
     Team,
+    FAQ,
     Contact,
   }
 }

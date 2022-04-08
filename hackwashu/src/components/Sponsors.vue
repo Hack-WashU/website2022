@@ -2,7 +2,7 @@
 <div id="sponsors">
     <h1 id="sponsorTitle">Sponsors</h1>
     <div class="sponsorList" data-aos="fade-left" data-aos-duration="1000">
-        <h2>Coming Soo0n!</h2>
+        <h2>Coming Soon!</h2>
     </div>
     <h1 id="partnerTitle">Partners</h1>
     <div class="sponsorList" data-aos="fade-right" data-aos-duration="1000">

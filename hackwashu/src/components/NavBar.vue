@@ -10,6 +10,7 @@
             <li><a href="#tracks"><h3>TRACKS</h3></a></li>
             <li><a href="#sponsors"><h3>SPONSORS</h3></a></li>
             <li><a href="#contact"><h3>CONTACT</h3></a></li>
+            <li><a href="#FAQ"><h3>FAQ</h3></a></li>
         </ul>
     </div>
 </div>
