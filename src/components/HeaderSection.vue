@@ -35,9 +35,10 @@ export default {
 
 h1 {
     color: rgb(255, 171, 60);
+    padding-bottom: 20px;
 }
 
-h3 {
+h2 {
     color: rgb(255, 255, 255);
 }
 
@@ -60,7 +61,11 @@ h3 {
 #contents {
     background-color: #08003F;
     border-radius: 15px;
-    padding: 90px;
+    /* padding: 90px; */
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 @media only screen and (max-width: 500px) {

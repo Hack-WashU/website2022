@@ -6,7 +6,7 @@
     </div>
     <h1 id="partnerTitle">Partners</h1>
     <div class="sponsorList" data-aos="fade-right" data-aos-duration="1000">
-        <h2><img src="../assets/acm.png">WASHU ACM</h2>
+        <h2><img src="../assets/acm.png">WashU ACM</h2>
     </div>
 </div>
 </template>
@@ -20,10 +20,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #sponsors {
-    min-height: 90vh;
+    padding-top: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 55vw;
+    margin: auto;
 }
 
 h1 {
@@ -35,10 +37,11 @@ h1 {
 .sponsorList {
     margin-left: auto;
     margin-right: auto;
+    height: 3em;
     background-color: azure;
     border-radius: 20px;
     padding: 20px;
-    width: 80vw;
+    width: 50vw;
     margin-bottom: 5vh;
 }
 
