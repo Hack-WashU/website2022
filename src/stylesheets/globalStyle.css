@@ -7,6 +7,12 @@
     --purple: #562EEB;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #08003F;
+}
+
 @font-face {
     font-family: 'Mont';
     src: url('../fonts/Mont-Regular.woff');
@@ -39,5 +45,8 @@ h3 {
     }
     h3 {
     font-size: 0.7em;
+    }
+    p {
+        font-size: 75%;
     }
 }
