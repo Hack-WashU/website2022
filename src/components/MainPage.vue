@@ -1,7 +1,7 @@
 <template>
 <div>
   <NavBar />
-  <SectionOne />
+  <HeaderSection />
   <EmailList />
   
   <About />
@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import SectionOne from './SectionOne.vue'
+import HeaderSection from './HeaderSection.vue'
 import NavBar from './NavBar.vue'
 import About from './About.vue'
 import Tracks from './Tracks.vue'
@@ -31,7 +31,7 @@ export default {
   },
   components: {
     NavBar,
-    SectionOne,
+    HeaderSection,
     EmailList,
     About,
     Tracks,
