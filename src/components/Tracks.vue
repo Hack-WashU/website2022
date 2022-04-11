@@ -57,25 +57,33 @@ export default {
 h1 {
     color: var(--orange);
 }
- #tracks div {
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
- }
- 
- #divisions div {
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
- }
+#tracks {
+    padding-top: 5rem
+}
 
- @media only screen and (max-width: 500px) {
-    #tracksAndDivisions {
-        min-height: 190vh;
-    }
- }
+#divisions {
+    padding-top: 5rem
+}
 
- .number {
-     color: rgb(255, 255, 255);
- }
+#tracks div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#divisions div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+#tracksAndDivisions {
+    min-height: 190vh;
+}
+}
+
+.number {
+    color: rgb(255, 255, 255);
+}
 </style>
