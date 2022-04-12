@@ -1,11 +1,12 @@
 :root {
-    --bg-color: #08003F;
-    --orange: rgb(255, 171, 60);
-    --blue: #3c5bff;
+    --bg: #08003F;
     --green: #6DDF90;
     --red: #DF4E68;
+    --blue: #3C5BFF;
     --purple: #562EEB;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body, html {
   margin: 0;
@@ -13,26 +14,25 @@ body, html {
   background-color: #08003F;
 }
 
-@font-face {
-    font-family: 'Mont';
-    src: url('../fonts/Mont-Regular.woff');
+p {
+    font-family: 'Karla', sans-serif;
 }
 
 h1 {
-    font-size: 3em;
-    font-family: Mont;
-    margin: 0;
+    font-size: 5em;
+    font-family: 'Quicksand', sans-serif;
+    /* margin: 0; */
 }
 
 h2 {
     font-size: 2em;
-    font-family: Mont;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
 }
 
 h3 {
     font-size: 1em;
-    font-family: Mont;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
 }
 
