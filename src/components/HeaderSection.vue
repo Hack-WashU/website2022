@@ -24,19 +24,21 @@ export default {
 
 img {
     padding-bottom: 5vh;
-    width: 50%;
+    width: 20%;
     max-width: 500px;
 }
 
 h1 {
-    color: var(--green);
+    /* color: var(--green); */
+    color: #A8E1BA;
     font-weight: 600;
 }
 
 h2 {
     font-family: 'Karla', sans-serif;
     padding-top: 5vh;
-    color: var(--red);
+    /* color: var(--red); */
+    color: #DF4E68;
     font-weight: 700;
 }
 
