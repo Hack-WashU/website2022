@@ -43,7 +43,7 @@ h1 {
 
 p {
   color: #D9D9D9;
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
 }
 
