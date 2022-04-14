@@ -45,7 +45,20 @@ export default {
 
 .social {
     height: auto;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #social-group {
+        padding-top: 2vw;
+        float: none;
+    }
+
+    .social {
+        width: 5%;
+        height: auto;
+    }
 }
 
 </style>
