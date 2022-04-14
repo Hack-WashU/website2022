@@ -9,7 +9,7 @@
   <Sponsors />
   <Team />
   <FAQ />
-  <Contact />
+  <FooterSection />
 </div>
 </template>
 
@@ -20,9 +20,9 @@ import About from './About.vue'
 import Tracks from './Tracks.vue'
 import Sponsors from './Sponsors.vue'
 import Team from './Team.vue'
-import Contact from './Contact.vue'
 import EmailList from './EmailList.vue'
 import FAQ from './FAQ.vue'
+import FooterSection from './FooterSection.vue'
 
 export default {
   name: 'MainPage',
@@ -38,7 +38,7 @@ export default {
     Sponsors,
     Team,
     FAQ,
-    Contact,
+    FooterSection,
   }
 }
 </script>
