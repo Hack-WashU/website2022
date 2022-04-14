@@ -2,7 +2,7 @@
     <div id="header">
         <img src="../assets/hackwashubrookings.svg" alt="Hack WashU Logo">
         <h1>Hack WashU</h1>
-        <h1>2022</h1>
+        <!--<h1>2022</h1>i-->
         <h2>SEPTEMBER 9 - 11, 2022</h2>
     </div>
 </template>
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
     font-family: 'Karla', sans-serif;
-    padding-top: 5vh;
+    padding-top: 2vh;
     /* color: var(--red); */
     color: #DF4E68;
     font-weight: 700;
