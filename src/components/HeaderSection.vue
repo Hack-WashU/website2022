@@ -16,15 +16,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #header {
-    padding-top: 5vh;
-    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 img {
-    padding-bottom: 5vh;
-    width: 20%;
+    margin-bottom: 30px;
     max-width: 500px;
 }
 
@@ -42,9 +42,12 @@ h2 {
     font-weight: 700;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     #contents {
         padding: 80px 30px;
+    }
+    img {
+        width: 50%;
     }
 }
 
