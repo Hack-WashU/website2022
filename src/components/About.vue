@@ -70,8 +70,9 @@ p {
 
 @media only screen and (max-width: 1000px) {
   p {
-    font-size: 20px;
-    text-align: center;
+    font-size: 1em;
+    text-align: left;
+    margin: 10px;
   }
   #title {
     padding-bottom: 5vh;

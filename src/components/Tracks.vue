@@ -58,6 +58,7 @@ h2, h3 {
 @media only screen and (max-width: 1000px) {
 #tracksAndDivisions {
     width: 80%;
+    min-height: 70vh;
 }
 }
 </style>
