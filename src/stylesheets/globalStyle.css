@@ -4,6 +4,7 @@
     --red: #DF4E68;
     --blue: #3C5BFF;
     --purple: #562EEB;
+    --orange:  rgb(255, 171, 60)
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
@@ -19,7 +20,7 @@ p {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
     font-family: 'Quicksand', sans-serif;
     /* margin: 0; */
 }
