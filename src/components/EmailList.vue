@@ -2,8 +2,8 @@
     <div id="background">
         <div id="contents">
             <div id="left">
-                <h1>Interested? </h1> 
-                <h1><span id="hack">Join our Mailing List</span></h1>
+                <h2>Interested? </h2> 
+                <h2><span id="hack">Join our Mailing List</span></h2>
             </div>
             <div id="mc_embed_signup">
                 <form action="https://hackwashu.us14.list-manage.com/subscribe/post?u=d6407a071d93443bbb9a61e1c&amp;id=a3154e19e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -54,19 +54,19 @@ export default {
 
 #mc-field-group {
     position:relative; 
-    width:100%; 
     padding-top: 2vh;
-    padding-bottom:3%; 
     min-height:10vh;
-}
-
-#title {
     display: flex;
 }
 
+#contents {
+   width: 100%;
+}
+
 #email{
-    width:50vh; 
-    height:5vh;
+    width: 75%;
+    padding: 0;
+    height:4vh;
     border: none;
 }
 
@@ -79,15 +79,15 @@ export default {
     color: white; 
     cursor: pointer; 
     display: inline-block; 
-    font-size:16px; 
+    font-size:10px; 
     font-weight: 700; 
-    height: 5vh; 
+    height: 4vh; 
     line-height: 32px; 
     text-align: center; 
     text-decoration: none; 
     vertical-align: top; 
     white-space: nowrap; 
-    width: 15vh;
+    width: 25%;
 }
 
 #hack {
@@ -97,7 +97,6 @@ export default {
     text-align: left;
     display: flex;
     flex-direction: column;
-    max-width: 50vw;
     }
 
 #background {
@@ -105,6 +104,9 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #foot {
     display:grid; 
@@ -113,7 +115,7 @@ export default {
     align-items: center;
 }
 
-h1 {
+h2 {
     color: rgb(255, 171, 60);
 }
 
@@ -133,8 +135,9 @@ h3 {
 
 
 @media only screen and (max-width: 500px) {
-    #contents {
-        padding: 80px 30px;
+    #background {
+        min-height: 20vh;
+        width: 80%;
     }
 }
 
