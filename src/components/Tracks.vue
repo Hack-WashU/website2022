@@ -1,45 +1,27 @@
 <template>
 <div id="tracksAndDivisions">
-    <div id="divisions">
-        <h1><span class="number">Two</span> Divisions</h1>
-        <div>
-            <TrackContainer 
-                title="Master" 
-                info="hi" 
-                color="var(--red)"
-            />
-            <TrackContainer 
-                title="Emerging"
-                info="hi" 
-                color="var(--purple)"
-            />
-        </div>
+    <div class="tracks">
+        <h1>Tracks</h1>
+        <h2>Sustainability</h2>
+        <h3>Sustainable practices support ecological, human, and economic health and vitality. The sustainability track is for hackers who aim to improve environmental sustainability through the use of technology.</h3>
+        <h2>Security and Privacy</h2>
+        <h3>The safeguarding of data and user identity in various platforms is an increasingly pressing issue in our data driven world. The Security and Privacy track is for hackers who aim to improve how we protect our data.</h3>
     </div>
-    <div id="tracks">
-        <h1><span class="number">Two</span> Tracks</h1>
-        <div>
-            <TrackContainer 
-                title="Security"
-                info="hi" 
-                color="var(--blue)"
-            />
-            <TrackContainer 
-                title="Sustainability" 
-                info="hi" 
-                color="var(--green)"
-            />
-        </div>
+    <div class="divisions">
+        <h1>Divisions</h1>
+        <h2>Master</h2>
+        <h3>The master division is for more experienced hackers who are comfortable with having full creative control of their projects. We will have exciting speakers and experienced mentors to help take your project to the next level.</h3>
+        <h2>Emerging</h2>
+        <h3>The emerging division is for underclassmen who may not be as experienced in building their own projects. We will have mentors and volunteers to help guide you through building your projects.</h3>
     </div>
 </div>
 </template>
 
 <script>
-import TrackContainer from './TrackContainer.vue'
 
 export default {
   name: 'Tracks',
   components: {
-      TrackContainer
   }
 }
 </script>
@@ -48,42 +30,34 @@ export default {
 <style scoped>
  #tracksAndDivisions {
      margin-top: 5vh;
-     width: 100%;
+     max-width: 900px;
+     min-width: 300px;
      min-height: 90vh;
      display: flex;
      flex-direction: column;
      justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: left;
 }
+
+.tracks {
+    margin-bottom: 20px;
+}
+
 h1 {
     color: var(--orange);
-}
-#tracks {
-    padding-top: 5rem
+    margin: 7px;
 }
 
-#divisions {
-    padding-top: 5rem
+h2, h3 {
+    margin: 10px;
+    color: white;
 }
 
-#tracks div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#divisions div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
 #tracksAndDivisions {
-    min-height: 190vh;
+    width: 80%;
 }
-}
-
-.number {
-    color: rgb(255, 255, 255);
 }
 </style>
