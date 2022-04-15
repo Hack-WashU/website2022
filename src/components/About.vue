@@ -1,5 +1,6 @@
 <template>
-  <h1 id="title">ABOUT</h1>
+<div class="container">
+  <h1 id="title">About</h1>
   <div id="about">
     <div id="text">
       <p>
@@ -14,6 +15,7 @@
     </div>
     <img alt="" src="../assets/hackwashurabbit.svg" />
   </div>
+</div>
 </template>
 
 <script>
@@ -28,34 +30,59 @@ export default {
 
 h1 {
   color: white;
-  font-weight: 600;
-  font-size: 55px;
-  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  margin-top: 20px;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #about {
   display: flex;
   align-items: center;
-  width: 65%;
+  flex-wrap: wrap;
+}
+
+#text {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
 p {
   color: #D9D9D9;
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
 }
 
 @media only screen and (max-width: 1000px) {
   p {
     font-size: 20px;
+    text-align: center;
   }
   #title {
     padding-bottom: 5vh;
   }
   #about {
-    display: block;
+    text-align: center;
+  }
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 </style>
