@@ -1,72 +1,70 @@
 <template>
 <div id="FAQ">
-    <div class="titleContainer">
-        <h1><span class="highlight">F</span>requently <span class="highlight">A</span>sked <span class="highlight">Q</span>uestions</h1>
-    </div>
+    <h1>FAQ</h1>
     <div class="questionsContainer">
-        <div class="question">
-            <h2><span class="highlight">Q</span> >> What is this?</h2>
-            <h2><span class="highlight">A</span> >> Questions and answers will go here (site is under construction).</h2>
-        </div>
-
+        <Question
+            question = "what is a hackathon?"
+            answer = "A hackathon is an invention marathon where students build software around a central theme. At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
+        />
+        <Question
+            question = "when is hack washu?"
+            answer = "hack washu will start on the evening of September 9, 2022 and end on the morning of the 11th"
+        />
+        <Question
+            question = "who can attend hack washu?"
+            answer = "anyone college student in the continental United States can attend hack washu!"
+        />
+        <Question
+            question = "is hack washu in-person?"
+            answer = "hack washu will primarily be virtual, but there will be an in-person component for washu students"
+        />
+        <Question
+            question = "is hack washu free?"
+            answer = "YES!!!"
+        />
     </div>
 </div>
 </template>
 
 
-
-
-
 <script>
+import Question from './Question.vue'
+
 export default {
   name: 'FAQ',
+  components: {
+      Question,
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #FAQ {
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    margin-bottom: 5vh;
-}
-
-h2 {
-    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
 }
 
 .questionsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    max-width: 900px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
-    flex-direction: column;
 }
 
-.question {
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    color: LightGrey;
-    margin-top: 3vh;
-    margin-right: 5vh;
-    margin-left: 10vh;
-}
-
-.titleContainer {
-    display: flex;
+h1 {
     color: white;
 }
 
-.highlight {
-    color: var(--orange);
+@media only screen and (max-width: 1000px) {
+    .questionsContainer {
+        width: 80%;
+    }
+    #FAQ {
+        min-height: 50vh;
+    }
 }
 
 </style>
