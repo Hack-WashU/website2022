@@ -18,7 +18,7 @@
         <TeamMember
             name="Eugene"
             role="Director of Design"
-            photo="hackwashulogo.png"
+            photo="eugenesong.jpeg"
         />
         <TeamMember
             name="Lisa"
@@ -36,9 +36,9 @@
             photo="samkim.jpg"
         />
         <TeamMember
-            name="Dr. Neumann"
-            role="Faculty Advisor"
-            photo="hackwashulogo.png"
+            name="Jack"
+            role="Co-Director of Technology"
+            photo="jackh.jpeg"
         />
     </div>
 </div>
