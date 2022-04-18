@@ -12,7 +12,7 @@
         />
         <Question
             question = "who can attend hack washu?"
-            answer = "anyone college student in the continental United States can attend hack washu!"
+            answer = "any college student in the continental United States can attend hack washu!"
         />
         <Question
             question = "is hack washu in-person?"
