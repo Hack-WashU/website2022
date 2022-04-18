@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <h1 id="title">About</h1>
+  <h1 id="title">ABOUT</h1>
   <div id="about">
     <div id="text">
       <p>
@@ -30,6 +30,7 @@ export default {
 
 h1 {
   color: white;
+  font-weight: 600;
 }
 
 .container {
