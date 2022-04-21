@@ -7,8 +7,8 @@
   <About />
   <Tracks />
   <Sponsors />
-  <Team />
   <FAQ />
+  <Team />
   <FooterSection />
 </div>
 </template>

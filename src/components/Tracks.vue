@@ -67,6 +67,8 @@ h2 {
 
 h3 {
     color: white;
+    font-size: 20px;
+    text-align: left;
 }
 
 h2, h3 {
