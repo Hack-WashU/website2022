@@ -3,7 +3,7 @@
         <img src="../assets/hackwashubrookings.svg" alt="Hack WashU Logo">
         <h1>Hack WashU</h1>
         <!--<h1>2022</h1>i-->
-        <h2>SEPTEMBER 9 - 11, 2022</h2>
+        <h2>OCTOBER 14 - 16, 2022</h2>
     </div>
 </template>
 

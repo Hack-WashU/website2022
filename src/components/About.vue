@@ -9,7 +9,7 @@
         Don't worry! We'll give you the tools to build something incredible.
         <br />
         <br />
-        For 36 hours from September 9th to September 11th, you’ll have the opportunity to collaborate and build out
+        For 36 hours from October 14th to 16th, you’ll have the opportunity to collaborate and build out
         brilliant, innovative, and impactful ideas.
       </p>
     </div>
