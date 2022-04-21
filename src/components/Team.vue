@@ -1,8 +1,7 @@
 <template>
 <div id="team">
     <div class="titleContainer">
-        <h1 id="meet-the">Meet The&nbsp;</h1>
-        <h1 id="-team">Team</h1>
+        <h1 id="teamHeader">MEET THE TEAM</h1>
     </div>
     <div class="container">
         <TeamMember
@@ -85,12 +84,10 @@ export default {
     display: flex;
 }
 
-#meet-the {
+h1 {
     color: white;
-}
-
-#-team {
-    color: var(--orange);
+    font-weight: 600;
+    text-align: center;
 }
 
 @media only screen and (max-width: 500px) {

@@ -1,17 +1,17 @@
 <template>
 <div id="tracksAndDivisions">
     <div class="tracks">
-        <h1>Tracks</h1>
-        <h2>Sustainability</h2>
+        <h1>TRACKS</h1>
+        <h2 class="trackHeader">Sustainability</h2>
         <h3>Sustainable practices support ecological, human, and economic health and vitality. The sustainability track is for hackers who aim to improve environmental sustainability through the use of technology.</h3>
-        <h2>Security and Privacy</h2>
+        <h2 class="trackHeader">Security and Privacy</h2>
         <h3>The safeguarding of data and user identity in various platforms is an increasingly pressing issue in our data driven world. The Security and Privacy track is for hackers who aim to improve how we protect our data.</h3>
     </div>
     <div class="divisions">
-        <h1>Divisions</h1>
-        <h2>Master</h2>
+        <h1>DIVISIONS</h1>
+        <h2 class="divHeader">Master</h2>
         <h3>The master division is for more experienced hackers who are comfortable with having full creative control of their projects. We will have exciting speakers and experienced mentors to help take your project to the next level.</h3>
-        <h2>Emerging</h2>
+        <h2 class="divHeader">Emerging</h2>
         <h3>The emerging division is for underclassmen who may not be as experienced in building their own projects. We will have mentors and volunteers to help guide you through building your projects.</h3>
     </div>
 </div>
@@ -45,14 +45,32 @@ export default {
     margin-bottom: 20px;
 }
 
+.trackHeader {
+    color: #A8E1BA;
+}
+
+.divHeader {
+    color: #EDC6CD;
+}
+
 h1 {
-    color: var(--orange);
+    color: white;
+    font-weight: 600;
     margin: 7px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+}
+
+h3 {
+    color: white;
 }
 
 h2, h3 {
     margin: 10px;
-    color: white;
 }
 
 @media only screen and (max-width: 1000px) {

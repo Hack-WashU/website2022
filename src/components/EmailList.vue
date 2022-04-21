@@ -2,8 +2,8 @@
     <div id="background">
         <div id="contents">
             <div id="left">
-                <h2>Interested? </h2> 
-                <h2><span id="hack">Join our Mailing List</span></h2>
+                <h2 id="interested">interested? </h2> 
+                <h2>join our mailing list!</h2>
             </div>
             <div id="mc_embed_signup">
                 <form action="https://hackwashu.us14.list-manage.com/subscribe/post?u=d6407a071d93443bbb9a61e1c&amp;id=a3154e19e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -12,7 +12,7 @@
 
                             <input type="email" 
                                     value="" 
-                                    placeholder="  Email Address" 
+                                    placeholder="EMAIL ADDRESS" 
                                     name="EMAIL" 
                                     class="required email" 
                                     id="email">
@@ -64,37 +64,40 @@ export default {
 }
 
 #email{
+    font-family: 'Karla', sans-serif;
+    color: black;
     width: 75%;
-    padding: 0;
-    height:4vh;
+    height:5vh;
     border: none;
+    margin-right: 10px;
+}
+
+#email ::placeholder {
+    color: black;
 }
 
 #subscribe {
+    font-family: 'Karla', sans-serif;
     clear:both; 
-    background-color: #5144A6; 
+    background-color: #6DDF90; 
     border: none;
     box-shadow: 2;
-    transition: all 0.23s ease-in-out 0s; 
-    color: white; 
+    color: black; 
     cursor: pointer; 
-    display: inline-block; 
-    font-size:10px; 
-    font-weight: 700; 
-    height: 4vh; 
-    line-height: 32px; 
+    font-size: 18px; 
+    font-weight: 500; 
+    height: 5vh; 
     text-align: center; 
-    text-decoration: none; 
     vertical-align: top; 
     white-space: nowrap; 
     width: 25%;
-}
+} 
 
 #hack {
     color: rgb(255, 255, 255);
 }
 #left {
-    text-align: left;
+    text-align: center;
     display: flex;
     flex-direction: column;
     }
@@ -116,23 +119,14 @@ export default {
 }
 
 h2 {
-    color: rgb(255, 171, 60);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
 }
 
-h3 {
-    color: rgb(255, 255, 255);
+#interested {
+    color: #6DDF90;
 }
-
-
-
-@keyframes bgcolorchange {
-    0%   {background-color:rgb(255, 143, 143); box-shadow: 0px 0px 30px 20px rgba(255, 143, 143, 0.452);}
-    25%  {background-color:rgb(255, 255, 155); box-shadow: 0px 0px 30px 20px rgba(255, 255, 155, 0.445);}
-    50%  {background-color:rgb(206, 153, 255); box-shadow: 0px 0px 30px 20px rgba(206, 153, 255, 0.438);}
-    75%  {background-color:rgb(162, 255, 162); box-shadow: 0px 0px 30px 20px rgba(162, 255, 162, 0.466);}
-    100% {background-color:rgb(255, 159, 159); box-shadow: 0px 0px 30px 20px rgba(255, 159, 159, 0.432);}
-}
-
 
 @media only screen and (max-width: 500px) {
     #background {
