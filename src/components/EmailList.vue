@@ -70,6 +70,7 @@ export default {
     height:5vh;
     border: none;
     margin-right: 10px;
+    padding-left: 2vh;
 }
 
 #email ::placeholder {
@@ -84,7 +85,7 @@ export default {
     box-shadow: 2;
     color: black; 
     cursor: pointer; 
-    font-size: 18px; 
+    font-size: 1em; 
     font-weight: 500; 
     height: 5vh; 
     text-align: center; 
@@ -133,6 +134,17 @@ h2 {
         min-height: 20vh;
         width: 80%;
     }
+        
+    #subscribe {
+        font-size: 0.9em; 
+    } 
+}
+
+@media only screen and (max-width: 415px) {
+
+    #subscribe {
+        font-size: 0.75em; 
+    } 
 }
 
 </style>
