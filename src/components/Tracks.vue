@@ -67,8 +67,9 @@ h2 {
 
 h3 {
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     text-align: left;
+    line-height: 1.3;
 }
 
 h2, h3 {
