@@ -35,5 +35,7 @@ h2 {
      color: rgb(207, 207, 207);
      margin-top: 10px;
      margin-left: 5px;
+     font-size: 24px;
+     line-height: 1.3;
  }
 </style>

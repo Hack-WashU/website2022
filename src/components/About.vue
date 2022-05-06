@@ -65,8 +65,9 @@ img {
 
 p {
   color: #D9D9D9;
-  font-size: 20px;
+  font-size: 24px;
   text-align: left;
+  line-height: 1.3;
 }
 
 @media only screen and (max-width: 1000px) {
