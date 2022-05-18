@@ -8,6 +8,7 @@
     <div class="sponsorList" data-aos="fade-right" data-aos-duration="1000">
         <img src="../assets/acm.png">
     </div>
+    <h3>Want to sponsor us? Check out our <a href="https://drive.google.com/file/d/1hDLDHqmddTjC0cWv_k-60YEhz5GkceE9/view">guidelines</a> and reach out!</h3>
 </div>
 </template>
 
@@ -34,6 +35,14 @@ h1 {
     text-align: center;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    color: #6DDF90;
 }
 
 .sponsorList {
