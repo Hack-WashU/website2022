@@ -6,5 +6,5 @@ echo 'www.hackwashu.io' > CNAME
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:Hack-WashU/website.git main:gh-pages
+git push -f git@github.com:Hack-WashU/website.git master:gh-pages
 cd -
