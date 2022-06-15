@@ -1,33 +1,33 @@
 <template>
-<div>
-  <NavBar />
-  <HeaderSection />
-  <EmailList />
-  
-  <About />
-  <Tracks />
-  <Sponsors />
-  <FAQ />
-  <Team />
-  <FooterSection />
-</div>
+  <div>
+    <NavBar />
+    <HeaderSection />
+    <EmailList />
+
+    <About />
+    <Tracks />
+    <Sponsors />
+    <FAQ />
+    <Team />
+    <FooterSection />
+  </div>
 </template>
 
 <script>
-import HeaderSection from './HeaderSection.vue'
-import NavBar from './NavBar.vue'
-import About from './About.vue'
-import Tracks from './Tracks.vue'
-import Sponsors from './Sponsors.vue'
-import Team from './Team.vue'
-import EmailList from './EmailList.vue'
-import FAQ from './FAQ.vue'
-import FooterSection from './FooterSection.vue'
+import HeaderSection from "./HeaderSection.vue";
+import NavBar from "./NavBar.vue";
+import About from "./About.vue";
+import Tracks from "./Tracks.vue";
+import Sponsors from "./Sponsors.vue";
+import Team from "./Team.vue";
+import EmailList from "./EmailList.vue";
+import FAQ from "./FAQ.vue";
+import FooterSection from "./FooterSection.vue";
 
 export default {
-  name: 'MainPage',
+  name: "MainPage",
   props: {
-    msg: String
+    msg: String,
   },
   components: {
     NavBar,
@@ -39,11 +39,9 @@ export default {
     Team,
     FAQ,
     FooterSection,
-  }
-}
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
+<style scoped></style>
