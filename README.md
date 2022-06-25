@@ -1,8 +1,11 @@
 # hackwashu
 
 ## Project setup
+
+install nodejs, npm. On Ubuntu this can be done with an `sudo apt install nodejs npm`
+
 ```
-npm install
+npm install -D
 ```
 
 ### Compiles and hot-reloads for development
@@ -16,6 +19,7 @@ npm run build
 ```
 
 ### To Contribute
+
 ```
 git pull
 git checkout -b <branch name>
