@@ -1,6 +1,6 @@
 <template>
 <div id="FAQ">
-    <h1>FAQ</h1>
+    <h1>Frequently Asked <span>Questions</span></h1>
     <div class="questionsContainer">
         <Question
             question = "what is a hackathon?"
@@ -41,22 +41,31 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #FAQ {
-    min-height: 70vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 2vh;
+    margin-top: 10vh;
 }
 
 .questionsContainer {
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 700px;
 }
 
 h1 {
     color: white;
+    width: 200px;
+    font-size: 2em;
+    text-align: left;
+    align-self:flex-start;
+    line-height: 40px;
+    margin-bottom: 1vh;
+}
+
+span {
+    color: rgba(109, 223, 144, 1);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -65,6 +74,11 @@ h1 {
     }
     #FAQ {
         min-height: 50vh;
+    }
+    h1 {
+        font-size: 1.3em;
+        width: 100%;
+        text-align: center;
     }
 }
 
