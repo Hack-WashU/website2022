@@ -1,15 +1,19 @@
 <template>
     <div id="header">
-        <img src="../assets/hackwashubrookings.svg" alt="Hack WashU Logo">
-        <h1>Hack WashU</h1>
-        <!--<h1>2022</h1>i-->
+        <h1>Hack <span id="hack">WashU</span></h1>
         <h2>OCTOBER 14 - 16, 2022</h2>
+        <EmailList />
     </div>
 </template>
 
 <script>
+import EmailList from './EmailList.vue'
+
 export default {
-  name: 'HeaderSection'
+  name: 'HeaderSection',
+  components: {
+    EmailList,
+  }
 }
 </script>
 
@@ -20,26 +24,26 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-}
-
-img {
-    margin-bottom: 30px;
-    max-width: 500px;
+    min-height: 75vh;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
-    /* color: var(--green); */
-    color: #A8E1BA;
-    font-weight: 600;
+    color: var(--green);
+    font-size: 65px;
+    font-weight: 800;
 }
 
 h2 {
-    font-family: 'Karla', sans-serif;
-    padding-top: 2vh;
-    /* color: var(--red); */
-    color: #DF4E68;
-    font-weight: 700;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#hack {
+    color: #FFFFFF;
 }
 
 @media only screen and (max-width: 800px) {

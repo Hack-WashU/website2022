@@ -1,40 +1,16 @@
 :root {
-    --bg: #08003F;
+    --bg: #16192B;
     --green: #6DDF90;
-    --red: #DF4E68;
-    --blue: #3C5BFF;
-    --purple: #562EEB;
-    --orange:  rgb(255, 171, 60)
+    --text: #D9D9D9;
+    --white: #FFFFFF;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body, html {
   margin: 0;
   padding: 0;
-  background-color: #08003F;
-}
-
-p {
-    font-family: 'Karla', sans-serif;
-}
-
-h1 {
-    font-size: 4em;
-    font-family: 'Quicksand', sans-serif;
-    /* margin: 0; */
-}
-
-h2 {
-    font-size: 2em;
-    font-family: 'Quicksand', sans-serif;
-    margin: 0;
-}
-
-h3 {
-    font-size: 1em;
-    font-family: 'Quicksand', sans-serif;
-    margin: 0;
+  background-color: var(--bg);
 }
 
 @media only screen and (max-width: 500px) {
