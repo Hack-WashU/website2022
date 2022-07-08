@@ -1,10 +1,8 @@
-<template>
+ <template>
     <div id="background">
         <div id="contents">
-            <div id="left">
-                <h2 id="interested">interested? </h2> 
-                <h2>join our mailing list!</h2>
-            </div>
+            <h2 id="interested">interested? </h2> 
+            <h2>join our mailing list!</h2>
             <div id="mc_embed_signup">
                 <form action="https://hackwashu.us14.list-manage.com/subscribe/post?u=d6407a071d93443bbb9a61e1c&amp;id=a3154e19e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div id="mc_embed_signup_scroll">
@@ -37,7 +35,6 @@
                 </form>
             </div>
 
-<!--End mc_embed_signup-->
         </div>
     </div>
     
@@ -53,10 +50,11 @@ export default {
 <style scoped>
 
 #mc-field-group {
-    position:relative; 
+    /* position: relative;  */
     padding-top: 2vh;
     min-height:10vh;
     display: flex;
+    align-items: center;
 }
 
 #contents {
@@ -64,12 +62,10 @@ export default {
 }
 
 #email{
-    font-family: 'Karla', sans-serif;
     color: black;
-    width: 75%;
+    width: 100%;
     height:5vh;
     border: none;
-    margin-right: 10px;
     padding-left: 2vh;
 }
 
@@ -78,12 +74,11 @@ export default {
 }
 
 #subscribe {
-    font-family: 'Karla', sans-serif;
     clear:both; 
-    background-color: #6DDF90; 
+    background-color: var(--green); 
     border: none;
     box-shadow: 2;
-    color: black; 
+    color: var(--background); 
     cursor: pointer; 
     font-size: 1em; 
     font-weight: 500; 
@@ -91,27 +86,26 @@ export default {
     text-align: center; 
     vertical-align: top; 
     white-space: nowrap; 
-    width: 25%;
+    width: 65%;
+    font-family: 'Quicksand', sans-serif;
 } 
 
-#hack {
-    color: rgb(255, 255, 255);
-}
 #left {
     text-align: center;
     display: flex;
     flex-direction: column;
-    }
+}
 
 #background {
-    padding-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
+    /* max-width: 800px; */
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Quicksand', sans-serif;
 }
+
 #foot {
     display:grid; 
     grid-template-columns: 3fr 1fr; 
@@ -121,12 +115,13 @@ export default {
 
 h2 {
     color: white;
-    font-family: 'Karla', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #interested {
-    color: #6DDF90;
+    color: var(--green);
 }
 
 @media only screen and (max-width: 500px) {

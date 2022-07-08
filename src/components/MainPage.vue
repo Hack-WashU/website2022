@@ -2,13 +2,12 @@
   <div>
     <NavBar />
     <HeaderSection />
-    <EmailList />
 
     <About />
     <Tracks />
     <Sponsors />
     <FAQ />
-    <Team />
+    <!-- <Team /> -->
     <FooterSection />
   </div>
 </template>
@@ -20,7 +19,6 @@ import About from "./About.vue";
 import Tracks from "./Tracks.vue";
 import Sponsors from "./Sponsors.vue";
 import Team from "./Team.vue";
-import EmailList from "./EmailList.vue";
 import FAQ from "./FAQ.vue";
 import FooterSection from "./FooterSection.vue";
 
@@ -32,7 +30,6 @@ export default {
   components: {
     NavBar,
     HeaderSection,
-    EmailList,
     About,
     Tracks,
     Sponsors,

@@ -39,6 +39,7 @@ h1 {
 
 h3 {
     color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 a {
