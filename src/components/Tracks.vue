@@ -77,7 +77,6 @@ export default {
 h1 {
     color: white;
     margin: 7px;
-    font-size: 3.5em;
 }
 
 h2, h3 {

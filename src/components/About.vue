@@ -30,7 +30,6 @@ export default {
 
 h1 {
   color: white;
-  font-weight: 600;
 }
 
 .container {

@@ -1,14 +1,11 @@
 <template>
     <div id="footer">
-        <a href="https://hackwashu.io"><img id="logo" src="../assets/hackwashulogo.png" alt="Hack WashU Logo"></a>
+        <img id="footerimg" src="../assets/hwu-footer.svg" />
         <p>have any questions?</p>
         <p>talk to us at <a id="mail" href="mailto:organizer@hackwashu.io">organizer@hackwashu.io</a></p>
         <div id="social-group">
-            <img class="social" src="../assets/socials/Facebook.svg" alt="Facebook" />
-            <img class="social" src="../assets/socials/Instagram.svg" alt="Instagram" />
-            <img class="social" src="../assets/socials/Twitter.svg" alt="Twitter" />
-            <img class="social" src="../assets/socials/LinkedIn.svg" alt="LinkedIn" />
-            <img class="social" src="../assets/socials/YouTube.svg" alt="YouTube" />
+            <a href="https://www.linkedin.com/company/hack-washu/"><img class="social" src="../assets/socials/LinkedIn.svg" alt="LinkedIn" /></a>
+            <a href="https://instagram.com/hackwashu"><img class="social" src="../assets/socials/Instagram.svg" alt="Instagram" /></a>
         </div>
     </div>
 </template>
@@ -22,16 +19,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-#footer {
-    padding: 5vw;
-    background-color: #DADADA;
+img {
+    padding-bottom: 5vw;
+    /* background-color: #DADADA; */
     position: relative;
 }
 
-#logo {
-    width: 5%;
-    height: auto;
-    padding-bottom: 1vw;
+#footerimg {
+    width: 60%;
 }
 
 #mail {
@@ -39,8 +34,7 @@ export default {
 }
 
 #social-group {
-    margin-top: auto;
-    float: right;
+    margin-top: 2vh;
 }
 
 .social {
@@ -49,12 +43,11 @@ export default {
     padding-right: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
-    #social-group {
-        padding-top: 2vw;
-        float: none;
-    }
+p {
+    color: var(--white)
+}
 
+@media only screen and (max-width: 1000px) {
     .social {
         width: 5%;
         height: auto;

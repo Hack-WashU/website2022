@@ -11,6 +11,30 @@ body, html {
   margin: 0;
   padding: 0;
   background-color: var(--bg);
+  font-weight: 700;
+  overflow: visible;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.5em;
+
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 500px) {

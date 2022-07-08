@@ -1,8 +1,9 @@
 <template>
     <div id="header">
-        <h1>Hack <span id="hack">WashU</span></h1>
-        <h2>OCTOBER 14 - 16, 2022</h2>
-        <EmailList />
+        <img id="title" src="../assets/hackwashu-ab.svg" />
+        <h2 id="date">OCTOBER 14 - 16, 2022</h2>
+        <h2 id="interested">applications opening soon!</h2>
+        <a id="subscribe">Soon™</a>
     </div>
 </template>
 
@@ -19,27 +20,54 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+#subscribe {
+    clear:both; 
+    background-color: var(--green); 
+    border: none;
+    box-shadow: 2;
+    color: var(--background); 
+    cursor: pointer; 
+    font-size: 1em; 
+    font-weight: 600; 
+
+    margin: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    text-align: center;
+} 
+
+#title {
+    width: 60%;
+}
+
 #header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 75vh;
-    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    min-height: 60vh;
+    padding-top: 10vh;
 }
 
-h1 {
-    color: var(--green);
-    font-size: 65px;
-    font-weight: 800;
+#date {
+    color: var(--white)
+}
+
+#interested {
+    color: var(--green)
 }
 
 h2 {
     color: var(--white);
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    /* padding-bottom: 5vh; */
 }
 
 #hack {
