@@ -1,10 +1,10 @@
 <template>
 <div id="sponsors">
-    <h1 id="sponsorTitle">SPONSORS</h1>
+    <h1 id="sponsorTitle">Our <span>Sponsors</span></h1>
     <div class="sponsorList" data-aos="fade-left" data-aos-duration="1000">
         <h2>Coming Soon!</h2>
     </div>
-    <h1 id="partnerTitle">PARTNERS</h1>
+    <h1 id="partnerTitle">Our <span>Partners</span></h1>
     <div class="sponsorList" data-aos="fade-right" data-aos-duration="1000">
         <img src="../assets/acm.png">
     </div>
@@ -21,7 +21,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #sponsors {
-    min-height: 50vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,6 @@ export default {
 h1 {
     color: white;
     text-align: center;
-    font-weight: 600;
     margin-bottom: 10px;
 }
 
@@ -46,9 +45,9 @@ a {
 }
 
 .sponsorList {
-    height: 3em;
-    background-color: rgba(134, 151, 244, 1);
-    border-radius: 10px;
+    min-height: 7em;
+    background-color: rgba(32, 35, 53, 1);
+    border-radius: 15px;
     width: 100%;
     margin-bottom: 5vh;
     padding: 10px;
