@@ -13,12 +13,12 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "aos": "^2.3.4",
-    "core-js": "^3.6.5",
+    "core-js": "^3.23.3",
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^5.0.4",
-    "@vue/cli-service": "^5.0.4",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/compiler-sfc": "^3.0.0"
   }
 }
