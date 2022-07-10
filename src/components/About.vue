@@ -14,7 +14,9 @@
         brilliant, innovative, and impactful ideas.
       </p>
     </div>
-    <img alt="" src="../assets/about.png" />
+    <div id="picture">
+      <img alt="" src="../assets/about.png" />
+    </div>
   </div>
 </div>
 </template>
@@ -56,12 +58,14 @@ h2 {
   justify-content: right;
   flex-wrap: wrap-reverse;
   width: 100%;
+  max-width: 1200px;
 }
 
 #text {
-  max-width: 800px;
-  margin-left: auto;
+  max-width: 650px;
+  margin-left: 20px;
   margin-right: auto;
+  align-items: left;
 }
 
 img {
@@ -70,9 +74,7 @@ img {
 
 p {
   color: #D9D9D9;
-  font-size: 24px;
   text-align: left;
-  line-height: 1.3;
   margin-top: 3vh;
 }
 
