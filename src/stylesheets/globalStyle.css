@@ -16,20 +16,22 @@ body, html {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.25em;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
-    font-weight: 500;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 p {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
+    line-height: 2.25em;
 }
 
 a {
@@ -43,15 +45,12 @@ span {
 
 @media only screen and (max-width: 500px) {
     h1 {
-    font-size: 2.5em;
+    font-size: 2.25em;
     }
     h2 {
     font-size: 1.5em;
     }
     h3 {
     font-size: 0.7em;
-    }
-    p {
-        font-size: 75%;
     }
 }

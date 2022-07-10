@@ -38,7 +38,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 900px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }

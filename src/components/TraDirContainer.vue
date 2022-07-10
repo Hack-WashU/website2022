@@ -19,7 +19,7 @@ export default {
 <style scoped>
 h2 {
     text-align: left;
-    position: absolute;
+    position: relative;
     font-size: 1.5em;
     color: rgba(109, 223, 144, 1);
     top: 20px;
@@ -27,21 +27,19 @@ h2 {
 }
 
 p {
-    position: absolute;
-    top: calc(20px + 2em);
+    position: relative;
+    top: calc(20px + 1em);
     color: white;
     text-align: left;
-    line-height: 1.5em;
-    margin: 10px 20px;
+    margin: 0px 20px 50px;
 }
 
 .container {
     width: calc(50% - 10px);
-    min-height: 200px;
     border-radius: 20px;
     background: rgba(32, 35, 53, 1);
     position: relative;
-    margin: 1.5vh 0;
+    margin: 2vh 0;
 }
 
 @media only screen and (max-width: 1000px) {
