@@ -22,6 +22,18 @@
             question = "is hack washu free?"
             answer = "YES!!!"
         />
+        <Question
+            question = "If I can't code, should I still come?"
+            answer = "YES!!! Hack WashU will be an inclusive event for all"
+        />
+        <Question
+            question = "Will there be swag?"
+            answer = "YES!!!"
+        />
+        <Question
+            question = "I have more questions"
+            answer = "feel free to reach out to us at Organizer@HackWashu.io"
+        />
     </div>
 </div>
 </template>
