@@ -53,7 +53,7 @@ h2 {
      color: white;
      margin-top: 10px;
      margin-left: 5px;
-     font-size: 24px;
+     font-size: 1em;
      line-height: 1.3;
      padding: 0px 20px 20px 20px;
  }
