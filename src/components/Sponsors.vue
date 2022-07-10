@@ -80,6 +80,7 @@ h2 {
     display: flex;
     align-items: center;
     margin: 20px;
+    color: white;
 }
 
 @media only screen and (max-width: 1000px) {

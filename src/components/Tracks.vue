@@ -15,8 +15,8 @@
             text="From terminal windows in the 60s to full blown virtual reality UIs in modern times, the way we interact with technology has evolved quickly. The Interactive Media track is for hackers who wish to push the limits of how we interact with technology."
         />
         <TraDirContainer 
-            title="Another Track"
-            text="lorem ipsum."
+            title="One More Track"
+            text="Coming Soon!"
         />
     </div>
     <h1>Our <span>Divisions</span></h1>
