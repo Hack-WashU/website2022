@@ -76,7 +76,6 @@ export default {
 
 h1 {
     color: white;
-    margin: 7px;
 }
 
 h2, h3 {
@@ -91,10 +90,6 @@ span {
 #tracksAndDivisions {
     width: 80%;
     min-height: 70vh;
-}
-
-h1 {
-    font-size: 2em;
 }
 }
 </style>

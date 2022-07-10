@@ -18,6 +18,8 @@ body, html {
 h1 {
     font-size: 3em;
     font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 h2 {

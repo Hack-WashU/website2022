@@ -1,20 +1,28 @@
 <template>
 <div id="sponsors">
     <h1 id="sponsorTitle">Our <span>Sponsors</span></h1>
-    <div class="sponsorList" data-aos="fade-left" data-aos-duration="1000">
+    <div class="sponsorList">
         <h2>Coming Soon!</h2>
     </div>
     <h1 id="partnerTitle">Our <span>Partners</span></h1>
-    <div class="sponsorList" data-aos="fade-right" data-aos-duration="1000">
-        <img src="../assets/acm.png">
+    <div class="sponsorList">
+        <Sponsor 
+            logoName="acm.png"
+            sponsorType="title"
+        />
     </div>
     <h3>Want to sponsor us? Check out our <a href="https://drive.google.com/file/d/1hDLDHqmddTjC0cWv_k-60YEhz5GkceE9/view">guidelines</a> and reach out!</h3>
 </div>
 </template>
 
 <script>
+import Sponsor from './Sponsor.vue'
+
 export default {
   name: 'Sponsors',
+  components: {
+      Sponsor,
+  }
 }
 </script>
 
@@ -33,7 +41,6 @@ export default {
 h1 {
     color: white;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 h3 {
@@ -51,7 +58,8 @@ a {
     border-radius: 15px;
     width: 100%;
     margin-bottom: 5vh;
-    padding: 10px;
+    margin-top: 1.5vh;
+    padding: 20px;
 }
 
 img {
