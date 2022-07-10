@@ -16,6 +16,7 @@ export default {
 img {
     object-fit: cover;
     height: auto;
+    margin: 20px;
 }
 .title {
     width: 400px;

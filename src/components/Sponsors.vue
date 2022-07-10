@@ -3,6 +3,11 @@
     <h1 id="sponsorTitle">Our <span>Sponsors</span></h1>
     <div class="sponsorList">
         <h2>Coming Soon!</h2>
+        <div class="sponsorsContainer" id="titleSponsors"></div>
+        <div class="sponsorsContainer" id="platSponsors"></div>
+        <div class="sponsorsContainer" id="goldSponsosrs"></div>
+        <div class="sponsorsContainer" id="silverSponsors"></div>
+        <div class="sponsorsContainer" id="bronzeSponsors"></div>
     </div>
     <h1 id="partnerTitle">Our <span>Partners</span></h1>
     <div class="sponsorList">
@@ -38,6 +43,12 @@ export default {
     margin-right: auto;
 }
 
+.sponsorsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 h1 {
     color: white;
     text-align: center;
@@ -59,7 +70,6 @@ a {
     width: 100%;
     margin-bottom: 5vh;
     margin-top: 1.5vh;
-    padding: 20px;
 }
 
 img {
@@ -69,11 +79,12 @@ img {
 h2 {
     display: flex;
     align-items: center;
+    margin: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
 #sponsors {
-    width: calc(80% - 20px);
+    width: 80%;
 }
 }
 </style>
