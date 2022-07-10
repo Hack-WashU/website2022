@@ -22,15 +22,15 @@
             answer = "Hack WashU will primarily be virtual, but there will be an in-person component for WashU students"
         />
         <Question
-            question = "is Hack WashU free?"
+            question = "Is Hack WashU free?"
             answer = "YES!!!"
         />
         <Question
-            question = "if I can't code, should I still come?"
+            question = "If I can't code, should I still come?"
             answer = "YES!!! Hack WashU will be an inclusive event for all"
         />
         <Question
-            question = "will there be swag?"
+            question = "Will there be swag?"
             answer = "YES!!!"
         />
         <Question
