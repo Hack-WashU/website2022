@@ -1,8 +1,9 @@
 <template>
 <div class="container">
-  <h1 id="title">ABOUT</h1>
   <div id="about">
     <div id="text">
+      <h1 id="title">ABOUT</h1>
+      <h1><span>Hack WashU</span></h1>
       <p>
         At HackWashU, you'll meet fellow hackers from around the country, learn new skills, and work alongside seasoned mentors.
         We'll have free workshops, lecture series, mentorship, prizes, games, and more. Don't have a team, or even an idea?
@@ -13,7 +14,7 @@
         brilliant, innovative, and impactful ideas.
       </p>
     </div>
-    <img alt="" src="../assets/hackwashurabbit.svg" />
+    <img alt="" src="../assets/about.png" />
   </div>
 </div>
 </template>
@@ -30,12 +31,17 @@ export default {
 
 h1 {
   color: white;
+  text-align: left;
+}
+
+h2 {
+  text-align: left;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 900px;
+  max-width: 1200px;
   margin-top: 20px;
   min-height: 60vh;
   display: flex;
@@ -47,19 +53,19 @@ h1 {
 #about {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: right;
+  flex-wrap: wrap-reverse;
+  width: 100%;
 }
 
 #text {
-  max-width: 600px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
 img {
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 400px;
 }
 
 p {
@@ -67,17 +73,15 @@ p {
   font-size: 24px;
   text-align: left;
   line-height: 1.3;
+  margin-top: 3vh;
 }
 
 @media only screen and (max-width: 1000px) {
   p {
     font-size: 1em;
     text-align: left;
-    margin: 10px;
   }
-  #title {
-    padding-bottom: 5vh;
-  }
+
   #about {
     text-align: center;
   }
@@ -85,6 +89,9 @@ p {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+  img {
+    width: 60%;
   }
 }
 </style>
