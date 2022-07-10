@@ -36,6 +36,7 @@ button {
 }
 .initial_button:hover {
     border: 2px solid rgba(149, 255, 182, 1);
+    background: rgba(49, 107, 67, 1);
     margin: -2px;
 }
 
@@ -52,7 +53,7 @@ h2 {
      text-align: left;
      color: white;
      margin-top: 10px;
-     margin-left: 5px;
+     margin-left: 0px;
      font-size: 1em;
      line-height: 1.3;
      padding: 0px 20px 20px 20px;

@@ -1,25 +1,27 @@
 <template>
 <div id="FAQ">
-    <h2>Frequently Asked <span>Questions</span></h2>
+    <div class="titleContainer"> 
+        <h1>Frequently Asked <span>Questions</span></h1>
+    </div>
     <div class="questionsContainer">
         <Question
-            question = "what is a hackathon?"
+            question = "What is a hackathon?"
             answer = "A hackathon is an invention marathon where students build software around a central theme. At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
         />
         <Question
-            question = "when is hack washu?"
-            answer = "hack washu will start on the evening of September 9, 2022 and end on the morning of the 11th"
+            question = "When is Hack WashU?"
+            answer = "Hack WashU will start on the evening of September 9, 2022 and end on the morning of the 11th"
         />
         <Question
-            question = "who can attend hack washu?"
-            answer = "any college student in the continental United States can attend hack washu!"
+            question = "Who can attend Hack WashU?"
+            answer = "Any college student in the continental United States can attend Hack WashU!"
         />
         <Question
-            question = "is hack washu in-person?"
-            answer = "hack washu will primarily be virtual, but there will be an in-person component for washu students"
+            question = "Is Hack WashU in-person?"
+            answer = "Hack WashU will primarily be virtual, but there will be an in-person component for WashU students"
         />
         <Question
-            question = "is hack washu free?"
+            question = "is Hack WashU free?"
             answer = "YES!!!"
         />
         <Question
@@ -31,8 +33,8 @@
             answer = "YES!!!"
         />
         <Question
-            question = "I have more questions"
-            answer = "feel free to reach out to us at Organizer@HackWashu.io"
+            question = "I have more questions!!"
+            answer = "Feel free to reach out to us at organizer@hackwashu.io!"
         />
     </div>
 </div>
@@ -63,15 +65,18 @@ export default {
 }
 
 .questionsContainer {
-    width: 700px;
+    width: 920px;
+}
+.titleContainer {
+    width: 280px;
+    align-self:flex-start;
 }
 
-h2 {
+h1 {
     color: white;
-    width: 200px;
     text-align: left;
-    align-self:flex-start;
     margin-bottom: 1vh;
+    margin-left: 20px;
 }
 
 @media only screen and (max-width: 1000px) {

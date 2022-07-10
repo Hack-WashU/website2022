@@ -47,7 +47,7 @@ export default {
 <style scoped>
  #tracksAndDivisions {
      margin-top: 5vh;
-     max-width: 900px;
+     max-width: 1200px;
      min-width: 350px;
      min-height: 90vh;
      display: flex;
