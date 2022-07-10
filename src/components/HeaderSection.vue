@@ -1,9 +1,14 @@
 <template>
     <div id="header">
         <img id="title" src="../assets/hackwashu-ab.svg" />
-        <h2 id="date">OCTOBER 14 - 16, 2022</h2>
-        <h2 id="interested">applications opening soon!</h2>
-        <a id="subscribe">Soon™</a>
+        <div id="info">
+            <h2 id="date">OCTOBER 14 - 16, 2022</h2>
+            <h2 id="interested">applications opening soon!</h2>
+            <button id="subscribe">
+                <h2 id="soon">Soon™</h2>
+            </button>
+        </div>
+        
     </div>
 </template>
 
@@ -28,20 +33,24 @@ export default {
     box-shadow: 2;
     color: var(--background); 
     cursor: pointer; 
-    font-size: 1em; 
     font-weight: 600; 
 
     margin: 2vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    width: 200px;
+    height: 80px;
 
     text-align: center;
 } 
 
 #title {
-    width: 60%;
+    width: 900px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #header {
@@ -49,7 +58,6 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
     min-height: 60vh;
     padding-top: 10vh;
 }
@@ -64,10 +72,13 @@ export default {
 
 h2 {
     color: var(--white);
-    font-size: 32px;
-    font-weight: 700;
-    padding-top: 5vh;
+    margin-top: 5vh;
     /* padding-bottom: 5vh; */
+}
+
+#soon {
+    margin: 0;
+    color: var(--background); 
 }
 
 #hack {
@@ -78,8 +89,19 @@ h2 {
     #contents {
         padding: 80px 30px;
     }
-    img {
-        width: 50%;
+    #title {
+        width: 80vw;
+    }
+    #header {
+        min-height: 90vh;
+    }
+    h2 {
+        font-size: 1.2em;
+        margin-top: 2vh;
+    }
+    #subscribe {
+        width: 120px;
+        height: 48px;
     }
 }
 
