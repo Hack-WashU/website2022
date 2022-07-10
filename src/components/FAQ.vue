@@ -2,9 +2,10 @@
 <div id="FAQ">
     <h2>Frequently Asked <span>Questions</span></h2>
     <div class="questionsContainer">
+        <!-- Reminder: questions should not have a leading capital letter! -->
         <Question
             question = "what is a hackathon?"
-            answer = "A hackathon is an invention marathon where students build software around a central theme. At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
+            answer = "a hackathon is an invention marathon where students build software around a central theme. At Hack WashU, you can look forward to amazing prizes, engaging speakers, and tons of skilled mentors!"
         />
         <Question
             question = "when is hack washu?"
@@ -23,15 +24,15 @@
             answer = "YES!!!"
         />
         <Question
-            question = "If I can't code, should I still come?"
+            question = "if I can't code, should I still come?"
             answer = "YES!!! Hack WashU will be an inclusive event for all"
         />
         <Question
-            question = "Will there be swag?"
+            question = "will there be swag?"
             answer = "YES!!!"
         />
         <Question
-            question = "I have more questions"
+            question = "i have more questions"
             answer = "feel free to reach out to us at Organizer@HackWashu.io"
         />
     </div>
