@@ -1,6 +1,6 @@
 <template>
 <div id="FAQ">
-    <h1>Frequently Asked <span>Questions</span></h1>
+    <h2>Frequently Asked <span>Questions</span></h2>
     <div class="questionsContainer">
         <Question
             question = "what is a hackathon?"
@@ -46,7 +46,7 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2vh;
+    margin-bottom: 10vh;
     margin-top: 10vh;
 }
 
@@ -54,18 +54,12 @@ export default {
     width: 700px;
 }
 
-h1 {
+h2 {
     color: white;
     width: 200px;
-    font-size: 2em;
     text-align: left;
     align-self:flex-start;
-    line-height: 40px;
     margin-bottom: 1vh;
-}
-
-span {
-    color: rgba(109, 223, 144, 1);
 }
 
 @media only screen and (max-width: 1000px) {

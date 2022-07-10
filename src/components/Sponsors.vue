@@ -1,27 +1,35 @@
 <template>
 <div id="sponsors">
-    <h1 id="sponsorTitle">SPONSORS</h1>
-    <div class="sponsorList" data-aos="fade-left" data-aos-duration="1000">
+    <h1 id="sponsorTitle">Our <span>Sponsors</span></h1>
+    <div class="sponsorList">
         <h2>Coming Soon!</h2>
     </div>
-    <h1 id="partnerTitle">PARTNERS</h1>
-    <div class="sponsorList" data-aos="fade-right" data-aos-duration="1000">
-        <img src="../assets/acm.png">
+    <h1 id="partnerTitle">Our <span>Partners</span></h1>
+    <div class="sponsorList">
+        <Sponsor 
+            logoName="acm.png"
+            sponsorType="title"
+        />
     </div>
     <h3>Want to sponsor us? Check out our <a href="https://drive.google.com/file/d/1hDLDHqmddTjC0cWv_k-60YEhz5GkceE9/view">guidelines</a> and reach out!</h3>
 </div>
 </template>
 
 <script>
+import Sponsor from './Sponsor.vue'
+
 export default {
   name: 'Sponsors',
+  components: {
+      Sponsor,
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #sponsors {
-    min-height: 50vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,8 +41,6 @@ export default {
 h1 {
     color: white;
     text-align: center;
-    font-weight: 600;
-    margin-bottom: 10px;
 }
 
 h3 {
@@ -47,12 +53,13 @@ a {
 }
 
 .sponsorList {
-    height: 3em;
-    background-color: rgba(134, 151, 244, 1);
-    border-radius: 10px;
+    min-height: 7em;
+    background-color: rgba(32, 35, 53, 1);
+    border-radius: 15px;
     width: 100%;
     margin-bottom: 5vh;
-    padding: 10px;
+    margin-top: 1.5vh;
+    padding: 20px;
 }
 
 img {

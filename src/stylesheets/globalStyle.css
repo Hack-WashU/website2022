@@ -16,9 +16,10 @@ body, html {
 }
 
 h1 {
+    font-size: 3em;
     font-family: 'Quicksand', sans-serif;
-    font-size: 3.5em;
-
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -35,6 +36,10 @@ p {
 a {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
+}
+
+span {
+    color: rgba(109, 223, 144, 1);
 }
 
 @media only screen and (max-width: 500px) {
