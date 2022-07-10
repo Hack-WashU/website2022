@@ -69,10 +69,11 @@ h2 {
     #FAQ {
         min-height: 50vh;
     }
-    h1 {
-        font-size: 1.3em;
-        width: 100%;
+    h2 {
+        width: 80%;
         text-align: center;
+        font-size: 2em;
+        margin-bottom: 3vh;
     }
 }
 
