@@ -2,18 +2,37 @@
 <div id="sponsors">
     <h1 id="sponsorTitle">Our <span>Sponsors</span></h1>
     <div class="sponsorList">
-        <h2>Coming Soon!</h2>
-        <div class="sponsorsContainer" id="titleSponsors"></div>
-        <div class="sponsorsContainer" id="platSponsors"></div>
+        <div class="sponsorsContainer" id="titleSponsors">
+            <Sponsor 
+                logoName="anheuser.png"
+                sponsorType="title"
+            />
+        </div>
+        <div class="sponsorsContainer" id="platSponsors">
+            <Sponsor 
+                logoName="Mastercard.png"
+                sponsorType="platinum"
+            />
+        </div>
         <div class="sponsorsContainer" id="goldSponsosrs"></div>
-        <div class="sponsorsContainer" id="silverSponsors"></div>
-        <div class="sponsorsContainer" id="bronzeSponsors"></div>
+        <div class="sponsorsContainer" id="silverSponsors">
+            <Sponsor 
+                logoName="zillow.png"
+                sponsorType="silver"
+            />
+        </div>
+        <div class="sponsorsContainer" id="bronzeSponsors">
+            <Sponsor 
+                logoName="cardinals.png"
+                sponsorType="bronze"
+            />
+        </div>
     </div>
     <h1 id="partnerTitle">Our <span>Partners</span></h1>
     <div class="sponsorList">
         <Sponsor 
             logoName="acm.png"
-            sponsorType="title"
+            sponsorType="bronze"
         />
     </div>
     <h3>Want to sponsor us? Check out our <a href="https://drive.google.com/file/d/1hDLDHqmddTjC0cWv_k-60YEhz5GkceE9/view">guidelines</a> and reach out!</h3>
@@ -38,6 +57,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -47,6 +67,7 @@ export default {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 h1 {
