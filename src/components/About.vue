@@ -14,9 +14,7 @@
         brilliant, innovative, and impactful ideas.
       </p>
     </div>
-    <div id="picture">
-      <img alt="" src="../assets/about.png" />
-    </div>
+    <img alt="" src="../assets/about.png" />
   </div>
 </div>
 </template>
