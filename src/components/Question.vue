@@ -34,14 +34,14 @@ button {
 .initial_button {
     background: rgba(32, 35, 53, 1);
 }
+
 .initial_button:hover {
-    border: 2px solid rgba(149, 255, 182, 1);
+    border: 1px solid rgba(149, 255, 182, 1);
     background: rgba(49, 107, 67, 1);
     margin: -2px;
 }
 
-
-.active_button {
+.active_button{
     background: rgba(49, 107, 67, 1);
 }
 
@@ -66,8 +66,14 @@ h2 {
  }
 
 .active_container {
-    border: 2px solid rgba(149, 255, 182, 1);
+    background: rgba(49, 107, 67, 1);
+
+}
+
+.active_container:hover {
+    border: 1px solid rgba(149, 255, 182, 1);
     margin-left: -2px;
 }
+
 
 </style>
