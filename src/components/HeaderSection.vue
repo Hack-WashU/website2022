@@ -2,7 +2,7 @@
     <div id="header">
         <img id="title" src="../assets/hackwashu-ab.svg" />
         <div id="info">
-            <h2 id="date">OCTOBER 14 - 16, 2022</h2>
+            <h1 id="date">OCTOBER 14 - 16, 2022</h1>
             <h2 id="interested">applications opening soon!</h2>
             <button id="subscribe">
                 <h2 id="soon">Soon™</h2>
@@ -44,6 +44,7 @@ export default {
 
 #title {
     max-width: 1200px;
+    margin-bottom: 4.5vh;
 }
 
 #info {
