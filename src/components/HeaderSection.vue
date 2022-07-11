@@ -43,7 +43,7 @@ export default {
 } 
 
 #title {
-    width: 900px;
+    max-width: 1200px;
 }
 
 #info {
@@ -59,7 +59,7 @@ export default {
     justify-content: center;
     align-items: center;
     min-height: 60vh;
-    padding-top: 10vh;
+    padding-top: 7vh;
 }
 
 #date {

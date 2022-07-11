@@ -10,7 +10,7 @@
         ><img
           src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg"
           alt="Major League Hacking 2023 Hackathon Season"
-          style="width: 100%"
+          style="width: 60%"
       /></a>
       <ul id="navbar">
         <li>

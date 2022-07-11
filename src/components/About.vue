@@ -69,7 +69,7 @@ h2 {
 }
 
 img {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 p {
