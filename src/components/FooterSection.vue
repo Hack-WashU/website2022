@@ -6,6 +6,7 @@
         <div id="social-group">
             <a href="https://www.linkedin.com/company/hack-washu/"><img class="social" src="../assets/socials/LinkedIn.svg" alt="LinkedIn" /></a>
             <a href="https://instagram.com/hackwashu"><img class="social" src="../assets/socials/Instagram.svg" alt="Instagram" /></a>
+            <a href="https://github.com/hack-washu"><img class="social" src="../assets/socials/Github.svg" alt="Github" /></a>"
         </div>
     </div>
 </template>
@@ -38,7 +39,9 @@ img {
 }
 
 .social {
+    color: #54CA78;
     height: auto;
+    height: 2em;
     padding-left: 10px;
     padding-right: 10px;
 }
