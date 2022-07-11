@@ -5,8 +5,8 @@
 
     <About />
     <Tracks />
-    <Sponsors />
     <FAQ />
+    <Sponsors />
     <!-- <Team /> -->
     <FooterSection />
   </div>
