@@ -14,23 +14,40 @@ export default {
 <style scoped>
 
 img {
-    object-fit: cover;
     height: auto;
     margin: 20px;
 }
 .title {
-    width: 400px;
+    max-width: 800px;
 }
 .platinum {
-    width: 200px;
+    max-width: 400px;
 }
 .gold {
-    width: 150;
+    max-width: 300px;
 }
 .silver {
-    width: 100px;
+    max-width: 250px;
 }
 .bronze {
-    width: 50px;
+    max-width: 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+.title {
+    max-width: 80%;
+}
+.platinum {
+    max-width: 65%;
+}
+.gold {
+    max-width: 45%;
+}
+.silver {
+    max-width: 30%;
+}
+.bronze {
+    max-width: 25%;
+}
 }
 </style>
