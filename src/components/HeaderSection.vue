@@ -3,9 +3,9 @@
         <img id="title" src="../assets/hackwashu-ab.svg" />
         <div id="info">
             <h1 id="date">OCTOBER 14 - 16, 2022</h1>
-            <h2 id="interested">applications opening soon!</h2>
+            <h2 id="interested">applications open now!!! </h2>
             <a id="subscribe" href="https://register.hackwashu.com">
-                <h2 id="soon">REGISTER NOW</h2>
+                <h2 id="soon">REGISTER!</h2>
             </a>
         </div>
         
