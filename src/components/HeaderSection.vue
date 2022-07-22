@@ -3,10 +3,10 @@
         <img id="title" src="../assets/hackwashu-ab.svg" />
         <div id="info">
             <h1 id="date">OCTOBER 14 - 16, 2022</h1>
-            <h2 id="interested">applications open now!!! </h2>
-            <a id="subscribe" href="https://register.hackwashu.com">
-                <h2 id="soon">REGISTER!</h2>
-            </a>
+            <h2 id="interested">applications open now!!!</h2>
+            <button onclick="window.location.href='https://register.hackwashu.com';" id="subscribe">
+                <h2 id="soon">REGISTER NOW</h2>
+            </button>
         </div>
         
     </div>
