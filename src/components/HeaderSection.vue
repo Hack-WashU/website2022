@@ -4,9 +4,9 @@
         <div id="info">
             <h1 id="date">OCTOBER 14 - 16, 2022</h1>
             <h2 id="interested">applications opening soon!</h2>
-            <button id="subscribe">
-                <h2 id="soon">Soon™</h2>
-            </button>
+            <a id="subscribe" href="https://register.hackwashu.com">
+                <h2 id="soon">REGISTER NOW</h2>
+            </a>
         </div>
         
     </div>
