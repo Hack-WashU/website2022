@@ -11,7 +11,7 @@
         />
         <Question
             question = "When is Hack WashU?"
-            answer = "Hack WashU will start on the evening of September 9, 2022 and end on the morning of the 11th"
+            answer = "Hack WashU will start on the evening of October 14, 2022 and end on the morning of the 16th"
         />
         <Question
             question = "Who can attend Hack WashU?"
