@@ -4,7 +4,7 @@
     <div class="sponsorList">
         <div class="sponsorsContainer" id="titleSponsors">
             <Sponsor 
-                logoName="anheuser.png"
+                logoName="AB_Tech_Logo_Transparent.png"
                 sponsorType="title"
             />
         </div>
