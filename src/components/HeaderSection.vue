@@ -1,9 +1,9 @@
 <template>
     <div id="header">
-        <img id="title" src="../assets/hackwashu-ab.svg" />
+        <img id="title" class="desktop" src="../assets/hackwashu-ab.svg" />
+        <img id="title" class="mobile" src="../assets/mobileImage.svg" />
         <div id="info">
-            <h1 id="date">OCTOBER 14 - 16, 2022</h1>
-            <h2 id="interested">applications open now!!! click below to register!!!</h2>
+            <h1 id="date">OCTOBER 14 - 16 2022</h1>
             <button onclick="window.open('https://register.hackwashu.com');" class="subscribe">
                 <h2 id="soon">APPLY NOW</h2>
             </button>
@@ -91,12 +91,9 @@ h2 {
     color: #FFFFFF;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     #contents {
         padding: 80px 30px;
-    }
-    #title {
-        width: 80vw;
     }
     #header {
         min-height: 90vh;
@@ -108,6 +105,27 @@ h2 {
     .subscribe {
         width: 120px;
         height: 55px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+    }
+    #title {
+        margin-bottom: 0vh;
+    }
+    #date {
+        width: 80%;
+        font-size: 7vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .mobile {
+        display: none;
     }
 }
 
