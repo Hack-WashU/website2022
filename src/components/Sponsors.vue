@@ -14,7 +14,12 @@
                 sponsorType="platinum"
             />
         </div>
-        <div class="sponsorsContainer" id="goldSponsosrs"></div>
+        <div class="sponsorsContainer" id="goldSponsosrs">
+            <Sponsor 
+                logoName="Microsoft.png"
+                sponsorType="gold"
+            />
+        </div>
         <div class="sponsorsContainer" id="silverSponsors">
             <Sponsor 
                 logoName="zillow.png"
