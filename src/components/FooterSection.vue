@@ -3,7 +3,7 @@
         <img id="footerimg" src="../assets/hwu-footer.svg" />
         <p id="mlh"><a id="mlh" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a></p>
         <p>have any questions?</p>
-        <p>talk to us at <a id="mail" href="mailto:organizer@hackwashu.io">organizer@hackwashu.io</a></p>
+        <p>talk to us at <a id="mail" href="mailto:organizer@hackwashu.com">organizer@hackwashu.com</a></p>
         <div id="social-group">
             <a href="https://www.linkedin.com/company/hack-washu/"><img class="social" src="../assets/socials/LinkedIn.svg" alt="LinkedIn" /></a>
             <a href="https://instagram.com/hackwashu"><img class="social" src="../assets/socials/Instagram.svg" alt="Instagram" /></a>
