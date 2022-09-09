@@ -20,16 +20,6 @@
             photo="eugenesong.jpeg"
         />
         <TeamMember
-            name="Lisa"
-            role="Co-Director of Communications"
-            photo="lisahan.jpeg"
-        />
-        <TeamMember
-            name="Mitch"
-            role="Co-Director of Communications"
-            photo="mitch.png"
-        />
-        <TeamMember
             name="Sam"
             role="Director of Operations"
             photo="samkim.jpg"
@@ -46,7 +36,6 @@
 
 <script>
 import TeamMember from './TeamMember.vue'
-import { lisa } from '../assets/lisahan.jpeg'
 
 export default {
   name: 'Team',

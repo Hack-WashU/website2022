@@ -1,6 +1,6 @@
 <template>
     <div id="header">
-        <img id="title" class="desktop" src="../assets/ABTechHighResPNG.png" />
+        <img id="title" class="desktop" src="../assets/hackwashu-ab.svg" />
         <img id="title" class="mobile" src="../assets/mobileImage.svg" />
         <div id="info">
             <h1 id="date">OCTOBER 14 - 16 2022</h1>
