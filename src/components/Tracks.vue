@@ -13,10 +13,11 @@
         <TraDirContainer 
             title="Interactive Media"
             text="From terminal windows in the 60s to full blown virtual reality UIs in modern times, the way we interact with technology has evolved quickly. The Interactive Media track is for hackers who wish to push the limits of how we interact with technology."
+            subtitle="Consumer Experience" 
         />
         <TraDirContainer 
-            title="One More Track"
-            text="Coming Soon!"
+            title="Digitize & Monetize (Sponsored)"
+            text="One of our strategic priorities at Anheuser Busch and NAZTech is to digitize and monetize our ecosystem. Knowing what you know about the beverage industry and our company, tell us how we can create incremental revenue streams via technology."
         />
     </div>
     <h1>Our <span>Divisions</span></h1>
