@@ -17,7 +17,7 @@
         />
         <TraDirContainer 
             title="Digitize & Monetize (Sponsored)"
-            text="One of our strategic priorities at Anheuser Busch and NAZTech is to digitize and monetize our ecosystem. Knowing what you know about the beverage industry and our company, tell us how we can create incremental revenue streams via technology."
+            text="As the world is becoming more and more digitalized, new avenues of business are opening up every day. The Digitize & Monetize track, sponsored by our partners at AB Tech, is for hackers who wish to explore the intersection of business and technology."
         />
     </div>
     <h1>Our <span>Divisions</span></h1>
