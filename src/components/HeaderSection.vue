@@ -4,8 +4,8 @@
         <img id="title" class="mobile" src="../assets/mobileImage.svg" />
         <div id="info">
             <h1 id="date">OCTOBER 14 - 16 2022</h1>
-            <button onclick="window.open('https://register.hackwashu.com');" class="subscribe">
-                <h2 id="soon">APPLY NOW</h2>
+            <button class="subscribe">
+                <h2 id="soon">Applications are Closed!</h2>
             </button>
         </div>
     </div>
