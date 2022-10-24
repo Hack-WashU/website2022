@@ -3,10 +3,10 @@
         <img id="title" class="desktop" src="../assets/ABTechPNG.png" />
         <img id="title" class="mobile" src="../assets/mobileImage.svg" />
         <div id="info">
-            <h1 id="date">OCTOBER 14 - 16 2022</h1>
             <button class="subscribe">
-                <h2 id="soon">Applications are Closed!</h2>
+                <h2 id="soon">THANKS FOR COMING!</h2>
             </button>
+            <h2>Stay tuned for 2023!</h2>
         </div>
     </div>
 </template>
@@ -35,7 +35,7 @@ export default {
     cursor: pointer; 
     font-weight: 600; 
 
-    margin: 3vh;
+    margin: 1vh;
     width: 200px;
     height: 80px;
 
